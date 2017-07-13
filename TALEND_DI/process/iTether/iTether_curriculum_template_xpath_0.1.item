@@ -367,7 +367,7 @@
     <elementParameter field="TEXT" name="CLIENT_ID" value="&quot;230893217864-jcd0cgr3in6fies83ienmsoqbbufr5au.apps.googleusercontent.com&quot;"/>
     <elementParameter field="PASSWORD" name="CLIENT_SECRET" value="lOSqHidARVnH35T8fkRYdfwSdLD7vjD5qULfvuwQl6A="/>
     <elementParameter field="TEXT" name="PROJECT_ID" value="&quot;secret-element-137317&quot;"/>
-    <elementParameter field="TEXT" name="AUTHORIZATION_CODE" value="&quot;4/QB2MTEhp3s-YAP-YWGsusxcu4owA2ZTLyiZThJThxpA&quot;"/>
+    <elementParameter field="TEXT" name="AUTHORIZATION_CODE" value="&quot;4/4csyKulGl98CE6Fowk7NGLFUP4C3j-2uOdcIN8rp454&quot;"/>
     <elementParameter field="TEXT" name="DATASET" value="&quot;Test_metrics_dashboard&quot;"/>
     <elementParameter field="TEXT" name="TABLE" value="&quot;load_talend_curriculum_template&quot;"/>
     <elementParameter field="CHECK" name="CREATE_TABLE_IF_NOT_EXIST" value="true"/>
