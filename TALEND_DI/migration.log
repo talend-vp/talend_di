@@ -352,3 +352,6 @@
  * Task [UnifyPasswordEncryption4MDMServerDefMigrationTask] : Nothing to do
  * Task [AutoUpdateRelationsMigrationTask] : Applied successfully
  ---=== End of migration ===---
+ ---=== Start Migration of project Talend_DI ===---
+ * Task [Remove routine folder] : Nothing to do
+ * Task [Change xmi serialization] : Nothing to do
