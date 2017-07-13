@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
-  <TalendJSON:JSONFileConnection xmi:id="_Y1qQ8EEjEee1w_xC3oDzmA" name="GoalTemplate-2" dataPackage="_Y1qRDUEjEee1w_xC3oDzmA" JSONFilePath="C:/Users/tsreenath/Documents/CORE-DB-Export-20170426/GoalTemplate-2.json" Encoding="UTF-8" readbyMode="JSONPATH">
+  <TalendJSON:JSONFileConnection xmi:id="_Y1qQ8EEjEee1w_xC3oDzmA" name="GoalTemplate-2" dataPackage="_Y1qRDUEjEee1w_xC3oDzmA" JSONFilePath="C:/Users/tsreenath/Documents/CORE-DB-Export-20170426/GoalTemplate-2.json" Encoding="UTF-8" readbyMode="XPATH">
     <schema xmi:id="_Y1qQ8UEjEee1w_xC3oDzmA" LimitBoucle="0" AbsoluteXPathQuery="$[*]">
       <schemaTargets xmi:id="_Y1qQ8kEjEee1w_xC3oDzmA" RelativeXPathQuery="_id" TagName="_id"/>
       <schemaTargets xmi:id="_Y1qQ80EjEee1w_xC3oDzmA" RelativeXPathQuery="programType" TagName="programType"/>
