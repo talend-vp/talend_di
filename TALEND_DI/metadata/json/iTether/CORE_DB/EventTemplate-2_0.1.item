@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
-  <TalendJSON:JSONFileConnection xmi:id="_yp_KoUEjEee1w_xC3oDzmA" name="EventTemplate-2" dataPackage="_yp_KrkEjEee1w_xC3oDzmA" JSONFilePath="C:/Users/tsreenath/Documents/CORE-DB-Export-20170426/EventTemplate-2.json" Encoding="UTF-8" readbyMode="JSONPATH">
+  <TalendJSON:JSONFileConnection xmi:id="_yp_KoUEjEee1w_xC3oDzmA" name="EventTemplate-2" dataPackage="_yp_KrkEjEee1w_xC3oDzmA" JSONFilePath="C:/Users/tsreenath/Documents/CORE-DB-Export-20170426/EventTemplate-2.json" Encoding="UTF-8" readbyMode="XPATH">
     <schema xmi:id="_yp_KokEjEee1w_xC3oDzmA" LimitBoucle="0" AbsoluteXPathQuery="$[*]">
       <schemaTargets xmi:id="_yp_Ko0EjEee1w_xC3oDzmA" RelativeXPathQuery="_id" TagName="_id"/>
       <schemaTargets xmi:id="_yp_KpEEjEee1w_xC3oDzmA" RelativeXPathQuery="initialDate" TagName="initialDate"/>
