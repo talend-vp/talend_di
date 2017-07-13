@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
-  <TalendJSON:JSONFileConnection xmi:id="_OUM-AUEbEeeSfp_LYgdNkA" name="Facility-2" dataPackage="_OUM-J0EbEeeSfp_LYgdNkA" JSONFilePath="C:/Users/tsreenath/Documents/CORE-DB-Export-20170426/Facility-2.json" Encoding="UTF-8" readbyMode="JSONPATH">
+  <TalendJSON:JSONFileConnection xmi:id="_OUM-AUEbEeeSfp_LYgdNkA" name="Facility-2" dataPackage="_OUM-J0EbEeeSfp_LYgdNkA" JSONFilePath="C:/Users/tsreenath/Documents/CORE-DB-Export-20170426/Facility-2.json" Encoding="UTF-8" readbyMode="XPATH">
     <schema xmi:id="_OUM-AkEbEeeSfp_LYgdNkA" LimitBoucle="0" AbsoluteXPathQuery="$[*]">
       <schemaTargets xmi:id="_OUM-A0EbEeeSfp_LYgdNkA" RelativeXPathQuery="_id" TagName="_id"/>
       <schemaTargets xmi:id="_OUM-BEEbEeeSfp_LYgdNkA" RelativeXPathQuery="programDirectors[*]" TagName="programDirectors___"/>
