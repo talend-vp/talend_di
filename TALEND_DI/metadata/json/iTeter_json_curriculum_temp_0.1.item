@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_55hXQEqWEeekwduowclf5Q" name="iTeter_json_curriculum_temp" dataPackage="_55h-ckqWEeekwduowclf5Q" JSONFilePath="C:/Users/tsreenath/Documents/CORE-DB-Export-20170426/CurriculumTemplate-2.json" Encoding="UTF-8" readbyMode="JSONPATH">
+    <schema xmi:id="_55h-UEqWEeekwduowclf5Q" LimitBoucle="50" AbsoluteXPathQuery="$[*]">
+      <schemaTargets xmi:id="_55h-UUqWEeekwduowclf5Q" RelativeXPathQuery="_id" TagName="_id"/>
+      <schemaTargets xmi:id="_55h-UkqWEeekwduowclf5Q" RelativeXPathQuery="title" TagName="title"/>
+      <schemaTargets xmi:id="_55h-U0qWEeekwduowclf5Q" RelativeXPathQuery="lessons[*]" TagName="lessons"/>
+      <schemaTargets xmi:id="_55h-VEqWEeekwduowclf5Q" RelativeXPathQuery="lessons[*].title" TagName="lessons_title"/>
+      <schemaTargets xmi:id="_55h-VUqWEeekwduowclf5Q" RelativeXPathQuery="lessons[*].surveyUrl" TagName="surveyUrl"/>
+      <schemaTargets xmi:id="_55h-VkqWEeekwduowclf5Q" RelativeXPathQuery="lessons[*].files[*]" TagName="files___"/>
+      <schemaTargets xmi:id="_55h-V0qWEeekwduowclf5Q" RelativeXPathQuery="lessons[*].files[*].size" TagName="size"/>
+      <schemaTargets xmi:id="_55h-WEqWEeekwduowclf5Q" RelativeXPathQuery="lessons[*].files[*].mimeType" TagName="mimeType"/>
+      <schemaTargets xmi:id="_55h-WUqWEeekwduowclf5Q" RelativeXPathQuery="lessons[*].files[*].mimetype" TagName="mimetype"/>
+      <schemaTargets xmi:id="_55h-WkqWEeekwduowclf5Q" RelativeXPathQuery="lessons[*].files[*]._filename" TagName="_filename"/>
+      <schemaTargets xmi:id="_55h-W0qWEeekwduowclf5Q" RelativeXPathQuery="lessons[*].files[*]._public" TagName="_public"/>
+      <schemaTargets xmi:id="_55h-XEqWEeekwduowclf5Q" RelativeXPathQuery="lessons[*].files[*]._id" TagName="_id1"/>
+      <schemaTargets xmi:id="_55h-XUqWEeekwduowclf5Q" RelativeXPathQuery="lessons[*].files[*]._acl" TagName="_acl"/>
+      <schemaTargets xmi:id="_55h-XkqWEeekwduowclf5Q" RelativeXPathQuery="lessons[*].files[*]._acl.creator" TagName="creator"/>
+      <schemaTargets xmi:id="_55h-X0qWEeekwduowclf5Q" RelativeXPathQuery="lessons[*].files[*]._kmd" TagName="_kmd"/>
+      <schemaTargets xmi:id="_55h-YEqWEeekwduowclf5Q" RelativeXPathQuery="lessons[*].files[*]._kmd.lmt" TagName="lmt"/>
+      <schemaTargets xmi:id="_55h-YUqWEeekwduowclf5Q" RelativeXPathQuery="lessons[*].files[*]._kmd.ect" TagName="ect"/>
+      <schemaTargets xmi:id="_55h-YkqWEeekwduowclf5Q" RelativeXPathQuery="lessons[*].files[*]._data" TagName="_data"/>
+      <schemaTargets xmi:id="_55h-Y0qWEeekwduowclf5Q" RelativeXPathQuery="lessons[*].id" TagName="id"/>
+      <schemaTargets xmi:id="_55h-ZEqWEeekwduowclf5Q" RelativeXPathQuery="lessons[*].completion" TagName="completion"/>
+      <schemaTargets xmi:id="_55h-ZUqWEeekwduowclf5Q" RelativeXPathQuery="lessons[*].time" TagName="time"/>
+      <schemaTargets xmi:id="_55h-ZkqWEeekwduowclf5Q" RelativeXPathQuery="lessons[*].revisits" TagName="revisits"/>
+      <schemaTargets xmi:id="_55h-Z0qWEeekwduowclf5Q" RelativeXPathQuery="lessons[*].comprehension" TagName="comprehension"/>
+      <schemaTargets xmi:id="_55h-aEqWEeekwduowclf5Q" RelativeXPathQuery="lessons[*].textAvailable" TagName="textAvailable"/>
+      <schemaTargets xmi:id="_55h-aUqWEeekwduowclf5Q" RelativeXPathQuery="lessons[*].audioAvailable" TagName="audioAvailable"/>
+      <schemaTargets xmi:id="_55h-akqWEeekwduowclf5Q" RelativeXPathQuery="lessons[*].videoAvailable" TagName="videoAvailable"/>
+      <schemaTargets xmi:id="_55h-a0qWEeekwduowclf5Q" RelativeXPathQuery="programType" TagName="programType"/>
+      <schemaTargets xmi:id="_55h-bEqWEeekwduowclf5Q" RelativeXPathQuery="_acl" TagName="_acl1"/>
+      <schemaTargets xmi:id="_55h-bUqWEeekwduowclf5Q" RelativeXPathQuery="_acl.creator" TagName="creator1"/>
+      <schemaTargets xmi:id="_55h-bkqWEeekwduowclf5Q" RelativeXPathQuery="_kmd" TagName="_kmd1"/>
+      <schemaTargets xmi:id="_55h-b0qWEeekwduowclf5Q" RelativeXPathQuery="_kmd.lmt" TagName="lmt1"/>
+      <schemaTargets xmi:id="_55h-cEqWEeekwduowclf5Q" RelativeXPathQuery="_kmd.ect" TagName="ect1"/>
+      <schemaTargets xmi:id="_55h-cUqWEeekwduowclf5Q" RelativeXPathQuery="count" TagName="count"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_55h-ckqWEeekwduowclf5Q" name="default" dataManager="_55hXQEqWEeekwduowclf5Q">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_55h-c0qWEeekwduowclf5Q" id="_fsbYQEqWEeekwduowclf5Q" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_55h-dEqWEeekwduowclf5Q" label="_id" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_55h-dUqWEeekwduowclf5Q" label="title" length="27" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_55h-dkqWEeekwduowclf5Q" label="lessons" length="13361" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_55h-d0qWEeekwduowclf5Q" label="lessons_title" length="2307" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_55h-eEqWEeekwduowclf5Q" label="surveyUrl" length="3321" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_55h-eUqWEeekwduowclf5Q" label="files___" length="3454" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_55h-ekqWEeekwduowclf5Q" label="size" length="104" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_55h-e0qWEeekwduowclf5Q" label="mimeType" length="198" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_55h-fEqWEeekwduowclf5Q" label="mimetype" length="198" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_55h-fUqWEeekwduowclf5Q" label="_filename" length="387" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_55h-fkqWEeekwduowclf5Q" label="_public" length="61" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_55h-f0qWEeekwduowclf5Q" label="_id1" length="469" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_55h-gEqWEeekwduowclf5Q" label="_acl" length="469" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_55h-gUqWEeekwduowclf5Q" label="creator" length="325" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_55h-gkqWEeekwduowclf5Q" label="_kmd" length="817" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_55h-g0qWEeekwduowclf5Q" label="lmt" length="325" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_55h-hEqWEeekwduowclf5Q" label="ect" length="325" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_55h-hUqWEeekwduowclf5Q" label="_data" length="37" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_55h-hkqWEeekwduowclf5Q" label="id" length="430" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_55h-h0qWEeekwduowclf5Q" label="completion" length="79" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_55h-iEqWEeekwduowclf5Q" label="time" length="118" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_55h-iUqWEeekwduowclf5Q" label="revisits" length="79" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_55h-ikqWEeekwduowclf5Q" label="comprehension" length="79" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_55h-i0qWEeekwduowclf5Q" label="textAvailable" length="46" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_55h-jEqWEeekwduowclf5Q" label="audioAvailable" length="31" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_55h-jUqWEeekwduowclf5Q" label="videoAvailable" length="31" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_55h-jkqWEeekwduowclf5Q" label="programType" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_55h-j0qWEeekwduowclf5Q" label="_acl1" length="38" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_55h-kEqWEeekwduowclf5Q" label="creator1" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_55h-kUqWEeekwduowclf5Q" label="_kmd1" length="67" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_55h-kkqWEeekwduowclf5Q" label="lmt1" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_55h-k0qWEeekwduowclf5Q" label="ect1" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_55h-lEqWEeekwduowclf5Q" label="count" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

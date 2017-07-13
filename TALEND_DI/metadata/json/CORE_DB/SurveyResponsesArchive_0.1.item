@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_HDm5sEElEee1w_xC3oDzmA" name="SurveyResponsesArchive" dataPackage="_HDm6CUElEee1w_xC3oDzmA" JSONFilePath="C:/Users/tsreenath/Documents/CORE-DB-Export-20170426/SurveyResponsesArchive.json" Encoding="UTF-8" readbyMode="JSONPATH">
+    <schema xmi:id="_HDm5sUElEee1w_xC3oDzmA" LimitBoucle="0" AbsoluteXPathQuery="$[*]">
+      <schemaTargets xmi:id="_HDm5skElEee1w_xC3oDzmA" RelativeXPathQuery="_id" TagName="_id"/>
+      <schemaTargets xmi:id="_HDm5s0ElEee1w_xC3oDzmA" RelativeXPathQuery="id" TagName="id"/>
+      <schemaTargets xmi:id="_HDm5tEElEee1w_xC3oDzmA" RelativeXPathQuery="contact_id" TagName="contact_id"/>
+      <schemaTargets xmi:id="_HDm5tUElEee1w_xC3oDzmA" RelativeXPathQuery="status" TagName="status"/>
+      <schemaTargets xmi:id="_HDm5tkElEee1w_xC3oDzmA" RelativeXPathQuery="is_test_data" TagName="is_test_data"/>
+      <schemaTargets xmi:id="_HDm5t0ElEee1w_xC3oDzmA" RelativeXPathQuery="date_submitted" TagName="date_submitted"/>
+      <schemaTargets xmi:id="_HDm5uEElEee1w_xC3oDzmA" RelativeXPathQuery="session_id" TagName="session_id"/>
+      <schemaTargets xmi:id="_HDm5uUElEee1w_xC3oDzmA" RelativeXPathQuery="language" TagName="language"/>
+      <schemaTargets xmi:id="_HDm5ukElEee1w_xC3oDzmA" RelativeXPathQuery="date_started" TagName="date_started"/>
+      <schemaTargets xmi:id="_HDm5u0ElEee1w_xC3oDzmA" RelativeXPathQuery="link_id" TagName="link_id"/>
+      <schemaTargets xmi:id="_HDm5vEElEee1w_xC3oDzmA" RelativeXPathQuery="url_variables" TagName="url_variables"/>
+      <schemaTargets xmi:id="_HDm5vUElEee1w_xC3oDzmA" RelativeXPathQuery="url_variables.sguid" TagName="sguid"/>
+      <schemaTargets xmi:id="_HDm5vkElEee1w_xC3oDzmA" RelativeXPathQuery="url_variables.kid" TagName="kid"/>
+      <schemaTargets xmi:id="_HDm5v0ElEee1w_xC3oDzmA" RelativeXPathQuery="ip_address" TagName="ip_address"/>
+      <schemaTargets xmi:id="_HDm5wEElEee1w_xC3oDzmA" RelativeXPathQuery="referer" TagName="referer"/>
+      <schemaTargets xmi:id="_HDm5wUElEee1w_xC3oDzmA" RelativeXPathQuery="user_agent" TagName="user_agent"/>
+      <schemaTargets xmi:id="_HDm5wkElEee1w_xC3oDzmA" RelativeXPathQuery="response_time" TagName="response_time"/>
+      <schemaTargets xmi:id="_HDm5w0ElEee1w_xC3oDzmA" RelativeXPathQuery="data_quality[*]" TagName="data_quality___"/>
+      <schemaTargets xmi:id="_HDm5xEElEee1w_xC3oDzmA" RelativeXPathQuery="data_quality[*].opentext" TagName="opentext"/>
+      <schemaTargets xmi:id="_HDm5xUElEee1w_xC3oDzmA" RelativeXPathQuery="longitude" TagName="longitude"/>
+      <schemaTargets xmi:id="_HDm5xkElEee1w_xC3oDzmA" RelativeXPathQuery="latitude" TagName="latitude"/>
+      <schemaTargets xmi:id="_HDm5x0ElEee1w_xC3oDzmA" RelativeXPathQuery="country" TagName="country"/>
+      <schemaTargets xmi:id="_HDm5yEElEee1w_xC3oDzmA" RelativeXPathQuery="city" TagName="city"/>
+      <schemaTargets xmi:id="_HDm5yUElEee1w_xC3oDzmA" RelativeXPathQuery="region" TagName="region"/>
+      <schemaTargets xmi:id="_HDm5ykElEee1w_xC3oDzmA" RelativeXPathQuery="postal" TagName="postal"/>
+      <schemaTargets xmi:id="_HDm5y0ElEee1w_xC3oDzmA" RelativeXPathQuery="dma" TagName="dma"/>
+      <schemaTargets xmi:id="_HDm5zEElEee1w_xC3oDzmA" RelativeXPathQuery="survey_data" TagName="survey_data"/>
+      <schemaTargets xmi:id="_HDm5zUElEee1w_xC3oDzmA" RelativeXPathQuery="survey_data.8" TagName="8"/>
+      <schemaTargets xmi:id="_HDm5zkElEee1w_xC3oDzmA" RelativeXPathQuery="survey_data.9" TagName="9"/>
+      <schemaTargets xmi:id="_HDm5z0ElEee1w_xC3oDzmA" RelativeXPathQuery="survey_data.10" TagName="10"/>
+      <schemaTargets xmi:id="_HDm50EElEee1w_xC3oDzmA" RelativeXPathQuery="survey_data.13" TagName="13"/>
+      <schemaTargets xmi:id="_HDm50UElEee1w_xC3oDzmA" RelativeXPathQuery="survey_data.16" TagName="16"/>
+      <schemaTargets xmi:id="_HDm50kElEee1w_xC3oDzmA" RelativeXPathQuery="survey_data.18" TagName="18"/>
+      <schemaTargets xmi:id="_HDm500ElEee1w_xC3oDzmA" RelativeXPathQuery="survey_data.19" TagName="19"/>
+      <schemaTargets xmi:id="_HDm51EElEee1w_xC3oDzmA" RelativeXPathQuery="survey_data.20" TagName="20"/>
+      <schemaTargets xmi:id="_HDm51UElEee1w_xC3oDzmA" RelativeXPathQuery="survey_data.21" TagName="21"/>
+      <schemaTargets xmi:id="_HDm51kElEee1w_xC3oDzmA" RelativeXPathQuery="survey_data.29" TagName="29"/>
+      <schemaTargets xmi:id="_HDm510ElEee1w_xC3oDzmA" RelativeXPathQuery="survey_data.11" TagName="11"/>
+      <schemaTargets xmi:id="_HDm52EElEee1w_xC3oDzmA" RelativeXPathQuery="survey_data.15" TagName="15"/>
+      <schemaTargets xmi:id="_HDm52UElEee1w_xC3oDzmA" RelativeXPathQuery="survey_data.17" TagName="17"/>
+      <schemaTargets xmi:id="_HDm52kElEee1w_xC3oDzmA" RelativeXPathQuery="survey_data.24" TagName="24"/>
+      <schemaTargets xmi:id="_HDm520ElEee1w_xC3oDzmA" RelativeXPathQuery="survey_data.25" TagName="25"/>
+      <schemaTargets xmi:id="_HDm53EElEee1w_xC3oDzmA" RelativeXPathQuery="survey_data.27" TagName="27"/>
+      <schemaTargets xmi:id="_HDm53UElEee1w_xC3oDzmA" RelativeXPathQuery="survey_data.28" TagName="28"/>
+      <schemaTargets xmi:id="_HDm53kElEee1w_xC3oDzmA" RelativeXPathQuery="survey_data.30" TagName="30"/>
+      <schemaTargets xmi:id="_HDm530ElEee1w_xC3oDzmA" RelativeXPathQuery="survey_data.32" TagName="32"/>
+      <schemaTargets xmi:id="_HDm54EElEee1w_xC3oDzmA" RelativeXPathQuery="survey_data.33" TagName="33"/>
+      <schemaTargets xmi:id="_HDm54UElEee1w_xC3oDzmA" RelativeXPathQuery="survey_data.35" TagName="35"/>
+      <schemaTargets xmi:id="_HDm54kElEee1w_xC3oDzmA" RelativeXPathQuery="survey_data.26" TagName="26"/>
+      <schemaTargets xmi:id="_HDm540ElEee1w_xC3oDzmA" RelativeXPathQuery="survey_data.31" TagName="31"/>
+      <schemaTargets xmi:id="_HDm55EElEee1w_xC3oDzmA" RelativeXPathQuery="survey_data.6" TagName="6"/>
+      <schemaTargets xmi:id="_HDm55UElEee1w_xC3oDzmA" RelativeXPathQuery="survey_data.7" TagName="7"/>
+      <schemaTargets xmi:id="_HDm55kElEee1w_xC3oDzmA" RelativeXPathQuery="survey_data.12" TagName="12"/>
+      <schemaTargets xmi:id="_HDm550ElEee1w_xC3oDzmA" RelativeXPathQuery="survey_data.14" TagName="14"/>
+      <schemaTargets xmi:id="_HDm56EElEee1w_xC3oDzmA" RelativeXPathQuery="survey_data.23" TagName="23"/>
+      <schemaTargets xmi:id="_HDm56UElEee1w_xC3oDzmA" RelativeXPathQuery="survey_data.34" TagName="34"/>
+      <schemaTargets xmi:id="_HDm56kElEee1w_xC3oDzmA" RelativeXPathQuery="survey_data.36" TagName="36"/>
+      <schemaTargets xmi:id="_HDm560ElEee1w_xC3oDzmA" RelativeXPathQuery="survey_data.37" TagName="37"/>
+      <schemaTargets xmi:id="_HDm57EElEee1w_xC3oDzmA" RelativeXPathQuery="survey_data.38" TagName="38"/>
+      <schemaTargets xmi:id="_HDm57UElEee1w_xC3oDzmA" RelativeXPathQuery="survey_data.39" TagName="39"/>
+      <schemaTargets xmi:id="_HDm57kElEee1w_xC3oDzmA" RelativeXPathQuery="survey_data.41" TagName="41"/>
+      <schemaTargets xmi:id="_HDm570ElEee1w_xC3oDzmA" RelativeXPathQuery="survey_data.42" TagName="42"/>
+      <schemaTargets xmi:id="_HDm58EElEee1w_xC3oDzmA" RelativeXPathQuery="survey_data.43" TagName="43"/>
+      <schemaTargets xmi:id="_HDm58UElEee1w_xC3oDzmA" RelativeXPathQuery="survey_data.44" TagName="44"/>
+      <schemaTargets xmi:id="_HDm58kElEee1w_xC3oDzmA" RelativeXPathQuery="survey_data.47" TagName="47"/>
+      <schemaTargets xmi:id="_HDm580ElEee1w_xC3oDzmA" RelativeXPathQuery="survey_data.48" TagName="48"/>
+      <schemaTargets xmi:id="_HDm59EElEee1w_xC3oDzmA" RelativeXPathQuery="survey_data.49" TagName="49"/>
+      <schemaTargets xmi:id="_HDm59UElEee1w_xC3oDzmA" RelativeXPathQuery="survey_data.50" TagName="50"/>
+      <schemaTargets xmi:id="_HDm59kElEee1w_xC3oDzmA" RelativeXPathQuery="survey_data.51" TagName="51"/>
+      <schemaTargets xmi:id="_HDm590ElEee1w_xC3oDzmA" RelativeXPathQuery="survey_data.52" TagName="52"/>
+      <schemaTargets xmi:id="_HDm5-EElEee1w_xC3oDzmA" RelativeXPathQuery="survey_data.53" TagName="53"/>
+      <schemaTargets xmi:id="_HDm5-UElEee1w_xC3oDzmA" RelativeXPathQuery="survey_data.55" TagName="55"/>
+      <schemaTargets xmi:id="_HDm5-kElEee1w_xC3oDzmA" RelativeXPathQuery="survey_data.58" TagName="58"/>
+      <schemaTargets xmi:id="_HDm5-0ElEee1w_xC3oDzmA" RelativeXPathQuery="survey_data.22" TagName="22"/>
+      <schemaTargets xmi:id="_HDm5_EElEee1w_xC3oDzmA" RelativeXPathQuery="survey_data.5" TagName="5"/>
+      <schemaTargets xmi:id="_HDm5_UElEee1w_xC3oDzmA" RelativeXPathQuery="survey_data.65" TagName="65"/>
+      <schemaTargets xmi:id="_HDm5_kElEee1w_xC3oDzmA" RelativeXPathQuery="survey_data.69" TagName="69"/>
+      <schemaTargets xmi:id="_HDm5_0ElEee1w_xC3oDzmA" RelativeXPathQuery="survey_data.70" TagName="70"/>
+      <schemaTargets xmi:id="_HDm6AEElEee1w_xC3oDzmA" RelativeXPathQuery="survey_data.71" TagName="71"/>
+      <schemaTargets xmi:id="_HDm6AUElEee1w_xC3oDzmA" RelativeXPathQuery="survey_id" TagName="survey_id"/>
+      <schemaTargets xmi:id="_HDm6AkElEee1w_xC3oDzmA" RelativeXPathQuery="idUser" TagName="idUser"/>
+      <schemaTargets xmi:id="_HDm6A0ElEee1w_xC3oDzmA" RelativeXPathQuery="_acl" TagName="_acl"/>
+      <schemaTargets xmi:id="_HDm6BEElEee1w_xC3oDzmA" RelativeXPathQuery="_acl.creator" TagName="creator"/>
+      <schemaTargets xmi:id="_HDm6BUElEee1w_xC3oDzmA" RelativeXPathQuery="_acl.groups" TagName="groups"/>
+      <schemaTargets xmi:id="_HDm6BkElEee1w_xC3oDzmA" RelativeXPathQuery="_kmd" TagName="_kmd"/>
+      <schemaTargets xmi:id="_HDm6B0ElEee1w_xC3oDzmA" RelativeXPathQuery="_kmd.ect" TagName="ect"/>
+      <schemaTargets xmi:id="_HDm6CEElEee1w_xC3oDzmA" RelativeXPathQuery="_kmd.lmt" TagName="lmt"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_HDm6CUElEee1w_xC3oDzmA" name="default" dataManager="_HDm5sEElEee1w_xC3oDzmA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_HDm6CkElEee1w_xC3oDzmA" id="_1zgq4EEkEee1w_xC3oDzmA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6C0ElEee1w_xC3oDzmA" label="_id" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6DEElEee1w_xC3oDzmA" label="id" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6DUElEee1w_xC3oDzmA" label="contact_id" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6DkElEee1w_xC3oDzmA" label="status" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6D0ElEee1w_xC3oDzmA" label="is_test_data" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6EEElEee1w_xC3oDzmA" label="date_submitted" length="23" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6EUElEee1w_xC3oDzmA" label="session_id" length="32" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6EkElEee1w_xC3oDzmA" label="language" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6E0ElEee1w_xC3oDzmA" label="date_started" length="23" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6FEElEee1w_xC3oDzmA" label="link_id" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6FUElEee1w_xC3oDzmA" label="url_variables" length="130" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6FkElEee1w_xC3oDzmA" label="sguid" length="63" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6F0ElEee1w_xC3oDzmA" label="kid" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6GEElEee1w_xC3oDzmA" label="ip_address" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6GUElEee1w_xC3oDzmA" label="referer" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6GkElEee1w_xC3oDzmA" label="user_agent" length="156" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6G0ElEee1w_xC3oDzmA" label="response_time" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6HEElEee1w_xC3oDzmA" label="data_quality___" length="25" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6HUElEee1w_xC3oDzmA" label="opentext" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6HkElEee1w_xC3oDzmA" label="longitude" length="16" precision="12" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6H0ElEee1w_xC3oDzmA" label="latitude" length="15" precision="13" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6IEElEee1w_xC3oDzmA" label="country" length="13" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6IUElEee1w_xC3oDzmA" label="city" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6IkElEee1w_xC3oDzmA" label="region" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6I0ElEee1w_xC3oDzmA" label="postal" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6JEElEee1w_xC3oDzmA" label="dma" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6JUElEee1w_xC3oDzmA" label="survey_data" length="55260" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6JkElEee1w_xC3oDzmA" label="Column27" length="349" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6J0ElEee1w_xC3oDzmA" label="Column28" length="340" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6KEElEee1w_xC3oDzmA" label="_0" length="463" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6KUElEee1w_xC3oDzmA" label="_3" length="351" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6KkElEee1w_xC3oDzmA" label="_6" length="165" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6K0ElEee1w_xC3oDzmA" label="_8" length="174" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6LEElEee1w_xC3oDzmA" label="_9" length="249" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6LUElEee1w_xC3oDzmA" label="_0" length="193" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6LkElEee1w_xC3oDzmA" label="_1" length="179" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6L0ElEee1w_xC3oDzmA" label="_9" length="29503" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6MEElEee1w_xC3oDzmA" label="_1" length="276" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6MUElEee1w_xC3oDzmA" label="_5" length="222" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6MkElEee1w_xC3oDzmA" label="_7" length="156" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6M0ElEee1w_xC3oDzmA" label="_4" length="134" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6NEElEee1w_xC3oDzmA" label="_5" length="169" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6NUElEee1w_xC3oDzmA" label="_7" length="173" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6NkElEee1w_xC3oDzmA" label="_8" length="122" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6N0ElEee1w_xC3oDzmA" label="_0" length="105" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6OEElEee1w_xC3oDzmA" label="_2" length="197" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6OUElEee1w_xC3oDzmA" label="_3" length="210" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6OkElEee1w_xC3oDzmA" label="_5" length="25810" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6O0ElEee1w_xC3oDzmA" label="_6" length="311" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6PEElEee1w_xC3oDzmA" label="_1" length="97" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6PUElEee1w_xC3oDzmA" label="Column50" length="85" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6PkElEee1w_xC3oDzmA" label="Column51" length="411" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6P0ElEee1w_xC3oDzmA" label="_2" length="168" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6QEElEee1w_xC3oDzmA" label="_4" length="360" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6QUElEee1w_xC3oDzmA" label="_3" length="536" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6QkElEee1w_xC3oDzmA" label="_4" length="159" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6Q0ElEee1w_xC3oDzmA" label="_6" length="145" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6REElEee1w_xC3oDzmA" label="_7" length="130" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6RUElEee1w_xC3oDzmA" label="_8" length="163" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6RkElEee1w_xC3oDzmA" label="_9" length="193" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6R0ElEee1w_xC3oDzmA" label="_1" length="126" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6SEElEee1w_xC3oDzmA" label="_2" length="101" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6SUElEee1w_xC3oDzmA" label="_3" length="111" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6SkElEee1w_xC3oDzmA" label="_4" length="85" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6S0ElEee1w_xC3oDzmA" label="_7" length="142" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6TEElEee1w_xC3oDzmA" label="_8" length="135" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6TUElEee1w_xC3oDzmA" label="_9" length="118" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6TkElEee1w_xC3oDzmA" label="_0" length="122" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6T0ElEee1w_xC3oDzmA" label="_1" length="136" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6UEElEee1w_xC3oDzmA" label="_2" length="150" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6UUElEee1w_xC3oDzmA" label="_3" length="144" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6UkElEee1w_xC3oDzmA" label="_5" length="131" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6U0ElEee1w_xC3oDzmA" label="_8" length="31660" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6VEElEee1w_xC3oDzmA" label="_2" length="169" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6VUElEee1w_xC3oDzmA" label="Column74" length="340" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6VkElEee1w_xC3oDzmA" label="_5" length="47093" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6V0ElEee1w_xC3oDzmA" label="_9" length="2696" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6WEElEee1w_xC3oDzmA" label="_0" length="1118" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6WUElEee1w_xC3oDzmA" label="_1" length="415" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6WkElEee1w_xC3oDzmA" label="survey_id" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6W0ElEee1w_xC3oDzmA" label="idUser" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6XEElEee1w_xC3oDzmA" label="_acl" length="104" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6XUElEee1w_xC3oDzmA" label="creator" length="13" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6XkElEee1w_xC3oDzmA" label="groups" length="67" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6X0ElEee1w_xC3oDzmA" label="_kmd" length="67" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6YEElEee1w_xC3oDzmA" label="ect" length="24" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HDm6YUElEee1w_xC3oDzmA" label="lmt" length="24" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

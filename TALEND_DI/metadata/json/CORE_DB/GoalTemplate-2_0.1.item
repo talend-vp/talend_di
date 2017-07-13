@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_Y1qQ8EEjEee1w_xC3oDzmA" name="GoalTemplate-2" dataPackage="_Y1qRDUEjEee1w_xC3oDzmA" JSONFilePath="C:/Users/tsreenath/Documents/CORE-DB-Export-20170426/GoalTemplate-2.json" Encoding="UTF-8" readbyMode="JSONPATH">
+    <schema xmi:id="_Y1qQ8UEjEee1w_xC3oDzmA" LimitBoucle="0" AbsoluteXPathQuery="$[*]">
+      <schemaTargets xmi:id="_Y1qQ8kEjEee1w_xC3oDzmA" RelativeXPathQuery="_id" TagName="_id"/>
+      <schemaTargets xmi:id="_Y1qQ80EjEee1w_xC3oDzmA" RelativeXPathQuery="programType" TagName="programType"/>
+      <schemaTargets xmi:id="_Y1qQ9EEjEee1w_xC3oDzmA" RelativeXPathQuery="milestones[*]" TagName="milestones___"/>
+      <schemaTargets xmi:id="_Y1qQ9UEjEee1w_xC3oDzmA" RelativeXPathQuery="milestones[*].isCompleted" TagName="isCompleted"/>
+      <schemaTargets xmi:id="_Y1qQ9kEjEee1w_xC3oDzmA" RelativeXPathQuery="milestones[*].title" TagName="title"/>
+      <schemaTargets xmi:id="_Y1qQ90EjEee1w_xC3oDzmA" RelativeXPathQuery="milestones[*].completeBy" TagName="completeBy"/>
+      <schemaTargets xmi:id="_Y1qQ-EEjEee1w_xC3oDzmA" RelativeXPathQuery="milestones[*].isTemplate" TagName="isTemplate"/>
+      <schemaTargets xmi:id="_Y1qQ-UEjEee1w_xC3oDzmA" RelativeXPathQuery="milestones[*].isEditing" TagName="isEditing"/>
+      <schemaTargets xmi:id="_Y1qQ-kEjEee1w_xC3oDzmA" RelativeXPathQuery="milestones[*].id" TagName="id"/>
+      <schemaTargets xmi:id="_Y1qQ-0EjEee1w_xC3oDzmA" RelativeXPathQuery="category" TagName="category"/>
+      <schemaTargets xmi:id="_Y1qQ_EEjEee1w_xC3oDzmA" RelativeXPathQuery="title" TagName="title1"/>
+      <schemaTargets xmi:id="_Y1qQ_UEjEee1w_xC3oDzmA" RelativeXPathQuery="description" TagName="description"/>
+      <schemaTargets xmi:id="_Y1qQ_kEjEee1w_xC3oDzmA" RelativeXPathQuery="applyAll" TagName="applyAll"/>
+      <schemaTargets xmi:id="_Y1qQ_0EjEee1w_xC3oDzmA" RelativeXPathQuery="type" TagName="type"/>
+      <schemaTargets xmi:id="_Y1qRAEEjEee1w_xC3oDzmA" RelativeXPathQuery="progress" TagName="progress"/>
+      <schemaTargets xmi:id="_Y1qRAUEjEee1w_xC3oDzmA" RelativeXPathQuery="status[*]" TagName="status___"/>
+      <schemaTargets xmi:id="_Y1qRAkEjEee1w_xC3oDzmA" RelativeXPathQuery="isPrivate" TagName="isPrivate"/>
+      <schemaTargets xmi:id="_Y1qRA0EjEee1w_xC3oDzmA" RelativeXPathQuery="assignmentDate" TagName="assignmentDate"/>
+      <schemaTargets xmi:id="_Y1qRBEEjEee1w_xC3oDzmA" RelativeXPathQuery="_acl" TagName="_acl"/>
+      <schemaTargets xmi:id="_Y1qRBUEjEee1w_xC3oDzmA" RelativeXPathQuery="_acl.creator" TagName="creator"/>
+      <schemaTargets xmi:id="_Y1qRBkEjEee1w_xC3oDzmA" RelativeXPathQuery="_kmd" TagName="_kmd"/>
+      <schemaTargets xmi:id="_Y1qRB0EjEee1w_xC3oDzmA" RelativeXPathQuery="_kmd.lmt" TagName="lmt"/>
+      <schemaTargets xmi:id="_Y1qRCEEjEee1w_xC3oDzmA" RelativeXPathQuery="_kmd.ect" TagName="ect"/>
+      <schemaTargets xmi:id="_Y1qRCUEjEee1w_xC3oDzmA" RelativeXPathQuery="count" TagName="count"/>
+      <schemaTargets xmi:id="_Y1qRCkEjEee1w_xC3oDzmA" RelativeXPathQuery="statusClass" TagName="statusClass"/>
+      <schemaTargets xmi:id="_Y1qRC0EjEee1w_xC3oDzmA" RelativeXPathQuery="isOpen" TagName="isOpen"/>
+      <schemaTargets xmi:id="_Y1qRDEEjEee1w_xC3oDzmA" RelativeXPathQuery="hasMilestones" TagName="hasMilestones"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_Y1qRDUEjEee1w_xC3oDzmA" name="default" dataManager="_Y1qQ8EEjEee1w_xC3oDzmA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Y1qRDkEjEee1w_xC3oDzmA" id="_cv014EEiEee1w_xC3oDzmA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Y1qRD0EjEee1w_xC3oDzmA" label="_id" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Y1qREEEjEee1w_xC3oDzmA" label="programType" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Y1qREUEjEee1w_xC3oDzmA" label="milestones___" length="1321" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Y1qREkEjEee1w_xC3oDzmA" label="isCompleted" length="73" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Y1qRE0EjEee1w_xC3oDzmA" label="title" length="145" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Y1qRFEEjEee1w_xC3oDzmA" label="completeBy" length="37" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Y1qRFUEjEee1w_xC3oDzmA" label="isTemplate" length="61" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Y1qRFkEjEee1w_xC3oDzmA" label="isEditing" length="73" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Y1qRF0EjEee1w_xC3oDzmA" label="id" length="133" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Y1qRGEEjEee1w_xC3oDzmA" label="category" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Y1qRGUEjEee1w_xC3oDzmA" label="title1" length="34" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Y1qRGkEjEee1w_xC3oDzmA" label="description" length="76" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Y1qRG0EjEee1w_xC3oDzmA" label="applyAll" length="5" talendType="id_Boolean" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Y1qRHEEjEee1w_xC3oDzmA" label="type" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Y1qRHUEjEee1w_xC3oDzmA" label="progress" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Y1qRHkEjEee1w_xC3oDzmA" label="status___" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Y1qRH0EjEee1w_xC3oDzmA" label="isPrivate" length="5" talendType="id_Boolean" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Y1qRIEEjEee1w_xC3oDzmA" label="assignmentDate" length="24" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Y1qRIUEjEee1w_xC3oDzmA" label="_acl" length="38" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Y1qRIkEjEee1w_xC3oDzmA" label="creator" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Y1qRI0EjEee1w_xC3oDzmA" label="_kmd" length="67" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Y1qRJEEjEee1w_xC3oDzmA" label="lmt" length="24" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Y1qRJUEjEee1w_xC3oDzmA" label="ect" length="24" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Y1qRJkEjEee1w_xC3oDzmA" label="count" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Y1qRJ0EjEee1w_xC3oDzmA" label="statusClass" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Y1qRKEEjEee1w_xC3oDzmA" label="isOpen" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Y1qRKUEjEee1w_xC3oDzmA" label="hasMilestones" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_vViwwUIHEeemcOP50acfsw" name="Goal-2" dataPackage="_vViw4kIHEeemcOP50acfsw" JSONFilePath="C:/Users/tsreenath/Documents/Goal-2.json" Encoding="UTF-8" readbyMode="JSONPATH">
+    <schema xmi:id="_vViwwkIHEeemcOP50acfsw" LimitBoucle="50" AbsoluteXPathQuery="$._id">
+      <schemaTargets xmi:id="_vViww0IHEeemcOP50acfsw" RelativeXPathQuery="_id" TagName="_id"/>
+      <schemaTargets xmi:id="_vViwxEIHEeemcOP50acfsw" RelativeXPathQuery="idPatient" TagName="idPatient"/>
+      <schemaTargets xmi:id="_vViwxUIHEeemcOP50acfsw" RelativeXPathQuery="title" TagName="title"/>
+      <schemaTargets xmi:id="_vViwxkIHEeemcOP50acfsw" RelativeXPathQuery="description" TagName="description"/>
+      <schemaTargets xmi:id="_vViwx0IHEeemcOP50acfsw" RelativeXPathQuery="idTemplate" TagName="idTemplate"/>
+      <schemaTargets xmi:id="_vViwyEIHEeemcOP50acfsw" RelativeXPathQuery="programType" TagName="programType"/>
+      <schemaTargets xmi:id="_vViwyUIHEeemcOP50acfsw" RelativeXPathQuery="isPrivate" TagName="isPrivate"/>
+      <schemaTargets xmi:id="_vViwykIHEeemcOP50acfsw" RelativeXPathQuery="condition" TagName="condition"/>
+      <schemaTargets xmi:id="_vViwy0IHEeemcOP50acfsw" RelativeXPathQuery="category" TagName="category"/>
+      <schemaTargets xmi:id="_vViwzEIHEeemcOP50acfsw" RelativeXPathQuery="idCurriculum" TagName="idCurriculum"/>
+      <schemaTargets xmi:id="_vViwzUIHEeemcOP50acfsw" RelativeXPathQuery="isComplete" TagName="isComplete"/>
+      <schemaTargets xmi:id="_vViwzkIHEeemcOP50acfsw" RelativeXPathQuery="assignmentDate" TagName="assignmentDate"/>
+      <schemaTargets xmi:id="_vViwz0IHEeemcOP50acfsw" RelativeXPathQuery="assignedBy" TagName="assignedBy"/>
+      <schemaTargets xmi:id="_vViw0EIHEeemcOP50acfsw" RelativeXPathQuery="status[*]" TagName="status___"/>
+      <schemaTargets xmi:id="_vViw0UIHEeemcOP50acfsw" RelativeXPathQuery="completeBy" TagName="completeBy"/>
+      <schemaTargets xmi:id="_vViw0kIHEeemcOP50acfsw" RelativeXPathQuery="milestones[*]" TagName="milestones___"/>
+      <schemaTargets xmi:id="_vViw00IHEeemcOP50acfsw" RelativeXPathQuery="_kmd" TagName="_kmd"/>
+      <schemaTargets xmi:id="_vViw1EIHEeemcOP50acfsw" RelativeXPathQuery="_kmd.lmt" TagName="lmt"/>
+      <schemaTargets xmi:id="_vViw1UIHEeemcOP50acfsw" RelativeXPathQuery="_kmd.ect" TagName="ect"/>
+      <schemaTargets xmi:id="_vViw1kIHEeemcOP50acfsw" RelativeXPathQuery="_acl" TagName="_acl"/>
+      <schemaTargets xmi:id="_vViw10IHEeemcOP50acfsw" RelativeXPathQuery="_acl.creator" TagName="creator"/>
+      <schemaTargets xmi:id="_vViw2EIHEeemcOP50acfsw" RelativeXPathQuery="_acl.gr" TagName="gr"/>
+      <schemaTargets xmi:id="_vViw2UIHEeemcOP50acfsw" RelativeXPathQuery="_acl.gw" TagName="gw"/>
+      <schemaTargets xmi:id="_vViw2kIHEeemcOP50acfsw" RelativeXPathQuery="_acl.checkingname" TagName="checkingname"/>
+      <schemaTargets xmi:id="_vViw20IHEeemcOP50acfsw" RelativeXPathQuery="count" TagName="count"/>
+      <schemaTargets xmi:id="_vViw3EIHEeemcOP50acfsw" RelativeXPathQuery="progress" TagName="progress"/>
+      <schemaTargets xmi:id="_vViw3UIHEeemcOP50acfsw" RelativeXPathQuery="date" TagName="date"/>
+      <schemaTargets xmi:id="_vViw3kIHEeemcOP50acfsw" RelativeXPathQuery="statusClass" TagName="statusClass"/>
+      <schemaTargets xmi:id="_vViw30IHEeemcOP50acfsw" RelativeXPathQuery="type" TagName="type"/>
+      <schemaTargets xmi:id="_vViw4EIHEeemcOP50acfsw" RelativeXPathQuery="searchableTitle" TagName="searchableTitle"/>
+      <schemaTargets xmi:id="_vViw4UIHEeemcOP50acfsw" RelativeXPathQuery="confirmationStatus" TagName="confirmationStatus"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_vViw4kIHEeemcOP50acfsw" name="default" dataManager="_vViwwUIHEeemcOP50acfsw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_vViw40IHEeemcOP50acfsw" id="_lERVQEIHEeemcOP50acfsw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vViw5EIHEeemcOP50acfsw" label="_id" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vViw5UIHEeemcOP50acfsw" label="idPatient" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vViw5kIHEeemcOP50acfsw" label="title" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vViw50IHEeemcOP50acfsw" label="description" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vViw6EIHEeemcOP50acfsw" label="idTemplate" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vViw6UIHEeemcOP50acfsw" label="programType" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vViw6kIHEeemcOP50acfsw" label="isPrivate" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vViw60IHEeemcOP50acfsw" label="condition" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vViw7EIHEeemcOP50acfsw" label="category" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vViw7UIHEeemcOP50acfsw" label="idCurriculum" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vViw7kIHEeemcOP50acfsw" label="isComplete" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vViw70IHEeemcOP50acfsw" label="assignmentDate" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vViw8EIHEeemcOP50acfsw" label="assignedBy" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vViw8UIHEeemcOP50acfsw" label="status___" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vViw8kIHEeemcOP50acfsw" label="completeBy" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vViw80IHEeemcOP50acfsw" label="milestones___" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vViw9EIHEeemcOP50acfsw" label="_kmd" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vViw9UIHEeemcOP50acfsw" label="lmt" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vViw9kIHEeemcOP50acfsw" label="ect" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vViw90IHEeemcOP50acfsw" label="_acl" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vViw-EIHEeemcOP50acfsw" label="creator" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vViw-UIHEeemcOP50acfsw" label="gr" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vViw-kIHEeemcOP50acfsw" label="gw" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vViw-0IHEeemcOP50acfsw" label="checkingname" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vViw_EIHEeemcOP50acfsw" label="count" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vViw_UIHEeemcOP50acfsw" label="progress" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vViw_kIHEeemcOP50acfsw" label="date" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vViw_0IHEeemcOP50acfsw" label="statusClass" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vVixAEIHEeemcOP50acfsw" label="type" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vVixAUIHEeemcOP50acfsw" label="searchableTitle" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vVixAkIHEeemcOP50acfsw" label="confirmationStatus" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

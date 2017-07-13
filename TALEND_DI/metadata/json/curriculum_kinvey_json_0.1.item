@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_NL78AEKoEeeOAOGvCVCfDw" name="curriculum_kinvey_json" dataPackage="_NL78DUKoEeeOAOGvCVCfDw" JSONFilePath="C:/Users/tsreenath/Documents/curriculum_json.json" Encoding="UTF-8" readbyMode="JSONPATH">
+    <schema xmi:id="_NL78AUKoEeeOAOGvCVCfDw" LimitBoucle="0" AbsoluteXPathQuery="$[*]">
+      <schemaTargets xmi:id="_NL78AkKoEeeOAOGvCVCfDw" RelativeXPathQuery="_id" TagName="_id"/>
+      <schemaTargets xmi:id="_NL78A0KoEeeOAOGvCVCfDw" RelativeXPathQuery="_acl" TagName="_acl"/>
+      <schemaTargets xmi:id="_NL78BEKoEeeOAOGvCVCfDw" RelativeXPathQuery="_kmd" TagName="_kmd"/>
+      <schemaTargets xmi:id="_NL78BUKoEeeOAOGvCVCfDw" RelativeXPathQuery="idCurriculumTemplate" TagName="idCurriculumTemplate"/>
+      <schemaTargets xmi:id="_NL78BkKoEeeOAOGvCVCfDw" RelativeXPathQuery="idPatient" TagName="idPatient"/>
+      <schemaTargets xmi:id="_NL78B0KoEeeOAOGvCVCfDw" RelativeXPathQuery="assignedBy" TagName="assignedBy"/>
+      <schemaTargets xmi:id="_NL78CEKoEeeOAOGvCVCfDw" RelativeXPathQuery="Title" TagName="Title"/>
+      <schemaTargets xmi:id="_NL78CUKoEeeOAOGvCVCfDw" RelativeXPathQuery="title" TagName="title_1"/>
+      <schemaTargets xmi:id="_NL78CkKoEeeOAOGvCVCfDw" RelativeXPathQuery="lessons[*]" TagName="lessons___"/>
+      <schemaTargets xmi:id="_NL78C0KoEeeOAOGvCVCfDw" RelativeXPathQuery="idFacility" TagName="idFacility"/>
+      <schemaTargets xmi:id="_NL78DEKoEeeOAOGvCVCfDw" RelativeXPathQuery="users[*]" TagName="users___"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_NL78DUKoEeeOAOGvCVCfDw" name="default" dataManager="_NL78AEKoEeeOAOGvCVCfDw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_NL78DkKoEeeOAOGvCVCfDw" id="_sls7kEKlEeeOAOGvCVCfDw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NL78D0KoEeeOAOGvCVCfDw" label="_id" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NL78EEKoEeeOAOGvCVCfDw" label="_acl" length="341" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NL78EUKoEeeOAOGvCVCfDw" label="_kmd" length="67" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NL78EkKoEeeOAOGvCVCfDw" label="idCurriculumTemplate" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NL78E0KoEeeOAOGvCVCfDw" label="idPatient" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NL78FEKoEeeOAOGvCVCfDw" label="assignedBy" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NL78FUKoEeeOAOGvCVCfDw" label="Title" length="62" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NL78FkKoEeeOAOGvCVCfDw" label="title_1" length="62" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NL78F0KoEeeOAOGvCVCfDw" label="lessons___" length="3332" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NL78GEKoEeeOAOGvCVCfDw" label="idFacility" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NL78GUKoEeeOAOGvCVCfDw" label="users___" length="384" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

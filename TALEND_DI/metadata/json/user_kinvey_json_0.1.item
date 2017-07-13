@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_yzIFgEMFEeeeYtohwAMviQ" name="user_kinvey_json" dataPackage="_yzIFikMFEeeeYtohwAMviQ" JSONFilePath="C:/Users/tsreenath/Documents/user_json.json" Encoding="UTF-8" readbyMode="JSONPATH">
+    <schema xmi:id="_yzIFgUMFEeeeYtohwAMviQ" LimitBoucle="0" AbsoluteXPathQuery="$[*]">
+      <schemaTargets xmi:id="_yzIFgkMFEeeeYtohwAMviQ" RelativeXPathQuery="_id" TagName="_id"/>
+      <schemaTargets xmi:id="_yzIFg0MFEeeeYtohwAMviQ" RelativeXPathQuery="username" TagName="username"/>
+      <schemaTargets xmi:id="_yzIFhEMFEeeeYtohwAMviQ" RelativeXPathQuery="email" TagName="email"/>
+      <schemaTargets xmi:id="_yzIFhUMFEeeeYtohwAMviQ" RelativeXPathQuery="first_name" TagName="first_name"/>
+      <schemaTargets xmi:id="_yzIFhkMFEeeeYtohwAMviQ" RelativeXPathQuery="_kmd" TagName="_kmd"/>
+      <schemaTargets xmi:id="_yzIFh0MFEeeeYtohwAMviQ" RelativeXPathQuery="_acl" TagName="_acl"/>
+      <schemaTargets xmi:id="_yzIFiEMFEeeeYtohwAMviQ" RelativeXPathQuery="_messaging" TagName="_messaging"/>
+      <schemaTargets xmi:id="_yzIFiUMFEeeeYtohwAMviQ" RelativeXPathQuery="logicalDeletion" TagName="logicalDeletion"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_yzIFikMFEeeeYtohwAMviQ" name="default" dataManager="_yzIFgEMFEeeeYtohwAMviQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_yzIFi0MFEeeeYtohwAMviQ" id="_E0ufMEMFEeeeYtohwAMviQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yzIFjEMFEeeeYtohwAMviQ" label="_id" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yzIFjUMFEeeeYtohwAMviQ" label="username" length="16" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yzIFjkMFEeeeYtohwAMviQ" label="email" length="19" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yzIFj0MFEeeeYtohwAMviQ" label="first_name" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yzIFkEMFEeeeYtohwAMviQ" label="_kmd" length="212" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yzIFkUMFEeeeYtohwAMviQ" label="_acl" length="137" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yzIFkkMFEeeeYtohwAMviQ" label="_messaging" length="756" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yzIFk0MFEeeeYtohwAMviQ" label="logicalDeletion" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

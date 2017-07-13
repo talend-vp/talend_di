@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_RZWEEEMKEeeeYtohwAMviQ" name="userprofile_kinvey_json" dataPackage="_RZWEPUMKEeeeYtohwAMviQ" JSONFilePath="C:/Users/tsreenath/Documents/userprofile_json.json" Encoding="UTF-8" readbyMode="JSONPATH">
+    <schema xmi:id="_RZWEEUMKEeeeYtohwAMviQ" LimitBoucle="0" AbsoluteXPathQuery="$[*]">
+      <schemaTargets xmi:id="_RZWEEkMKEeeeYtohwAMviQ" RelativeXPathQuery="_id" TagName="_id"/>
+      <schemaTargets xmi:id="_RZWEE0MKEeeeYtohwAMviQ" RelativeXPathQuery="startDate" TagName="startDate"/>
+      <schemaTargets xmi:id="_RZWEFEMKEeeeYtohwAMviQ" RelativeXPathQuery="name" TagName="name"/>
+      <schemaTargets xmi:id="_RZWEFUMKEeeeYtohwAMviQ" RelativeXPathQuery="lastname" TagName="lastname"/>
+      <schemaTargets xmi:id="_RZWEFkMKEeeeYtohwAMviQ" RelativeXPathQuery="username" TagName="username"/>
+      <schemaTargets xmi:id="_RZWEF0MKEeeeYtohwAMviQ" RelativeXPathQuery="email" TagName="email"/>
+      <schemaTargets xmi:id="_RZWEGEMKEeeeYtohwAMviQ" RelativeXPathQuery="role" TagName="role"/>
+      <schemaTargets xmi:id="_RZWEGUMKEeeeYtohwAMviQ" RelativeXPathQuery="programDirector" TagName="programDirector"/>
+      <schemaTargets xmi:id="_RZWEGkMKEeeeYtohwAMviQ" RelativeXPathQuery="idUser" TagName="idUser"/>
+      <schemaTargets xmi:id="_RZWEG0MKEeeeYtohwAMviQ" RelativeXPathQuery="status" TagName="status"/>
+      <schemaTargets xmi:id="_RZWEHEMKEeeeYtohwAMviQ" RelativeXPathQuery="idParent" TagName="idParent"/>
+      <schemaTargets xmi:id="_RZWEHUMKEeeeYtohwAMviQ" RelativeXPathQuery="idFacility[*]" TagName="idFacility___"/>
+      <schemaTargets xmi:id="_RZWEHkMKEeeeYtohwAMviQ" RelativeXPathQuery="searchableName" TagName="searchableName"/>
+      <schemaTargets xmi:id="_RZWEH0MKEeeeYtohwAMviQ" RelativeXPathQuery="searchableLastName" TagName="searchableLastName"/>
+      <schemaTargets xmi:id="_RZWEIEMKEeeeYtohwAMviQ" RelativeXPathQuery="searchableFullName" TagName="searchableFullName"/>
+      <schemaTargets xmi:id="_RZWEIUMKEeeeYtohwAMviQ" RelativeXPathQuery="surveys[*]" TagName="surveys___"/>
+      <schemaTargets xmi:id="_RZWEIkMKEeeeYtohwAMviQ" RelativeXPathQuery="_acl" TagName="_acl"/>
+      <schemaTargets xmi:id="_RZWEI0MKEeeeYtohwAMviQ" RelativeXPathQuery="_kmd" TagName="_kmd"/>
+      <schemaTargets xmi:id="_RZWEJEMKEeeeYtohwAMviQ" RelativeXPathQuery="lastPasswordChangeDate" TagName="lastPasswordChangeDate"/>
+      <schemaTargets xmi:id="_RZWEJUMKEeeeYtohwAMviQ" RelativeXPathQuery="count" TagName="count"/>
+      <schemaTargets xmi:id="_RZWEJkMKEeeeYtohwAMviQ" RelativeXPathQuery="treatmentDays" TagName="treatmentDays"/>
+      <schemaTargets xmi:id="_RZWEJ0MKEeeeYtohwAMviQ" RelativeXPathQuery="cleanDays" TagName="cleanDays"/>
+      <schemaTargets xmi:id="_RZWEKEMKEeeeYtohwAMviQ" RelativeXPathQuery="isExpired" TagName="isExpired"/>
+      <schemaTargets xmi:id="_RZWEKUMKEeeeYtohwAMviQ" RelativeXPathQuery="birthDate" TagName="birthDate"/>
+      <schemaTargets xmi:id="_RZWEKkMKEeeeYtohwAMviQ" RelativeXPathQuery="startTreatmentDate" TagName="startTreatmentDate"/>
+      <schemaTargets xmi:id="_RZWEK0MKEeeeYtohwAMviQ" RelativeXPathQuery="gender" TagName="gender"/>
+      <schemaTargets xmi:id="_RZWELEMKEeeeYtohwAMviQ" RelativeXPathQuery="condition[*]" TagName="condition___"/>
+      <schemaTargets xmi:id="_RZWELUMKEeeeYtohwAMviQ" RelativeXPathQuery="payer" TagName="payer"/>
+      <schemaTargets xmi:id="_RZWELkMKEeeeYtohwAMviQ" RelativeXPathQuery="programType" TagName="programType"/>
+      <schemaTargets xmi:id="_RZWEL0MKEeeeYtohwAMviQ" RelativeXPathQuery="startCleanDate" TagName="startCleanDate"/>
+      <schemaTargets xmi:id="_RZWEMEMKEeeeYtohwAMviQ" RelativeXPathQuery="showProfilePicture" TagName="showProfilePicture"/>
+      <schemaTargets xmi:id="_RZWEMUMKEeeeYtohwAMviQ" RelativeXPathQuery="conditionString" TagName="conditionString"/>
+      <schemaTargets xmi:id="_RZWEMkMKEeeeYtohwAMviQ" RelativeXPathQuery="lastName" TagName="lastName"/>
+      <schemaTargets xmi:id="_RZWEM0MKEeeeYtohwAMviQ" RelativeXPathQuery="homePhone" TagName="homePhone"/>
+      <schemaTargets xmi:id="_RZWENEMKEeeeYtohwAMviQ" RelativeXPathQuery="mobilePhone" TagName="mobilePhone"/>
+      <schemaTargets xmi:id="_RZWENUMKEeeeYtohwAMviQ" RelativeXPathQuery="officeHome" TagName="officeHome"/>
+      <schemaTargets xmi:id="_RZWENkMKEeeeYtohwAMviQ" RelativeXPathQuery="officePhoneExt" TagName="officePhoneExt"/>
+      <schemaTargets xmi:id="_RZWEN0MKEeeeYtohwAMviQ" RelativeXPathQuery="address" TagName="address"/>
+      <schemaTargets xmi:id="_RZWEOEMKEeeeYtohwAMviQ" RelativeXPathQuery="idRol" TagName="idRol"/>
+      <schemaTargets xmi:id="_RZWEOUMKEeeeYtohwAMviQ" RelativeXPathQuery="idStatus" TagName="idStatus"/>
+      <schemaTargets xmi:id="_RZWEOkMKEeeeYtohwAMviQ" RelativeXPathQuery="profilePicture" TagName="profilePicture"/>
+      <schemaTargets xmi:id="_RZWEO0MKEeeeYtohwAMviQ" RelativeXPathQuery="profileBackground" TagName="profileBackground"/>
+      <schemaTargets xmi:id="_RZWEPEMKEeeeYtohwAMviQ" RelativeXPathQuery="srcProfilePicture" TagName="srcProfilePicture"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_RZWEPUMKEeeeYtohwAMviQ" name="default" dataManager="_RZWEEEMKEeeeYtohwAMviQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_RZWEPkMKEeeeYtohwAMviQ" id="_ECbYMEMIEeeeYtohwAMviQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RZWEP0MKEeeeYtohwAMviQ" label="_id" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RZWEQEMKEeeeYtohwAMviQ" label="startDate" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RZWEQUMKEeeeYtohwAMviQ" label="name" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RZWEQkMKEeeeYtohwAMviQ" label="lastname" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RZWEQ0MKEeeeYtohwAMviQ" label="username" length="16" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RZWEREMKEeeeYtohwAMviQ" label="email" length="19" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RZWERUMKEeeeYtohwAMviQ" label="role" length="16" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RZWERkMKEeeeYtohwAMviQ" label="programDirector" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RZWER0MKEeeeYtohwAMviQ" label="idUser" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RZWESEMKEeeeYtohwAMviQ" label="status" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RZWESUMKEeeeYtohwAMviQ" label="idParent" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RZWESkMKEeeeYtohwAMviQ" label="idFacility___" length="55" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RZWES0MKEeeeYtohwAMviQ" label="searchableName" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RZWETEMKEeeeYtohwAMviQ" label="searchableLastName" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RZWETUMKEeeeYtohwAMviQ" label="searchableFullName" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RZWETkMKEeeeYtohwAMviQ" label="surveys___" length="1032" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RZWET0MKEeeeYtohwAMviQ" label="_acl" length="137" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RZWEUEMKEeeeYtohwAMviQ" label="_kmd" length="67" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RZWEUUMKEeeeYtohwAMviQ" label="lastPasswordChangeDate" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RZWEUkMKEeeeYtohwAMviQ" label="count" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RZWEU0MKEeeeYtohwAMviQ" label="treatmentDays" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RZWEVEMKEeeeYtohwAMviQ" label="cleanDays" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RZWEVUMKEeeeYtohwAMviQ" label="isExpired" length="5" talendType="id_Boolean" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RZWEVkMKEeeeYtohwAMviQ" label="birthDate" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RZWEV0MKEeeeYtohwAMviQ" label="startTreatmentDate" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RZWEWEMKEeeeYtohwAMviQ" label="gender" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RZWEWUMKEeeeYtohwAMviQ" label="condition___" length="52" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RZWEWkMKEeeeYtohwAMviQ" label="payer" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RZWEW0MKEeeeYtohwAMviQ" label="programType" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RZWEXEMKEeeeYtohwAMviQ" label="startCleanDate" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RZWEXUMKEeeeYtohwAMviQ" label="showProfilePicture" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RZWEXkMKEeeeYtohwAMviQ" label="conditionString" length="47" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RZWEX0MKEeeeYtohwAMviQ" label="lastName" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RZWEYEMKEeeeYtohwAMviQ" label="homePhone" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RZWEYUMKEeeeYtohwAMviQ" label="mobilePhone" length="30" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RZWEYkMKEeeeYtohwAMviQ" label="officeHome" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RZWEY0MKEeeeYtohwAMviQ" label="officePhoneExt" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RZWEZEMKEeeeYtohwAMviQ" label="address" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RZWEZUMKEeeeYtohwAMviQ" label="idRol" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RZWEZkMKEeeeYtohwAMviQ" label="idStatus" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RZWEZ0MKEeeeYtohwAMviQ" label="profilePicture" length="36" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RZWEaEMKEeeeYtohwAMviQ" label="profileBackground" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RZWEaUMKEeeeYtohwAMviQ" label="srcProfilePicture" length="609" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_C47ecUEkEee1w_xC3oDzmA" name="Message" dataPackage="_C47egkEkEee1w_xC3oDzmA" JSONFilePath="C:/Users/tsreenath/Documents/CORE-DB-Export-20170426/Message.json" Encoding="UTF-8" readbyMode="JSONPATH">
+    <schema xmi:id="_C47eckEkEee1w_xC3oDzmA" LimitBoucle="0" AbsoluteXPathQuery="$[*]">
+      <schemaTargets xmi:id="_C47ec0EkEee1w_xC3oDzmA" RelativeXPathQuery="_id" TagName="_id"/>
+      <schemaTargets xmi:id="_C47edEEkEee1w_xC3oDzmA" RelativeXPathQuery="idThread" TagName="idThread"/>
+      <schemaTargets xmi:id="_C47edUEkEee1w_xC3oDzmA" RelativeXPathQuery="idSender" TagName="idSender"/>
+      <schemaTargets xmi:id="_C47edkEkEee1w_xC3oDzmA" RelativeXPathQuery="idRecipient" TagName="idRecipient"/>
+      <schemaTargets xmi:id="_C47ed0EkEee1w_xC3oDzmA" RelativeXPathQuery="sendTime" TagName="sendTime"/>
+      <schemaTargets xmi:id="_C47eeEEkEee1w_xC3oDzmA" RelativeXPathQuery="readTime" TagName="readTime"/>
+      <schemaTargets xmi:id="_C47eeUEkEee1w_xC3oDzmA" RelativeXPathQuery="contactName" TagName="contactName"/>
+      <schemaTargets xmi:id="_C47eekEkEee1w_xC3oDzmA" RelativeXPathQuery="messageBody" TagName="messageBody"/>
+      <schemaTargets xmi:id="_C47ee0EkEee1w_xC3oDzmA" RelativeXPathQuery="searchableMessageBody" TagName="searchableMessageBody"/>
+      <schemaTargets xmi:id="_C47efEEkEee1w_xC3oDzmA" RelativeXPathQuery="isLastOfThread" TagName="isLastOfThread"/>
+      <schemaTargets xmi:id="_C47efUEkEee1w_xC3oDzmA" RelativeXPathQuery="_acl" TagName="_acl"/>
+      <schemaTargets xmi:id="_C47efkEkEee1w_xC3oDzmA" RelativeXPathQuery="_acl.creator" TagName="creator"/>
+      <schemaTargets xmi:id="_C47ef0EkEee1w_xC3oDzmA" RelativeXPathQuery="_kmd" TagName="_kmd"/>
+      <schemaTargets xmi:id="_C47egEEkEee1w_xC3oDzmA" RelativeXPathQuery="_kmd.lmt" TagName="lmt"/>
+      <schemaTargets xmi:id="_C47egUEkEee1w_xC3oDzmA" RelativeXPathQuery="_kmd.ect" TagName="ect"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_C47egkEkEee1w_xC3oDzmA" name="default" dataManager="_C47ecUEkEee1w_xC3oDzmA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_C47eg0EkEee1w_xC3oDzmA" id="_zlWmsEEjEee1w_xC3oDzmA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C47ehEEkEee1w_xC3oDzmA" label="_id" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C47ehUEkEee1w_xC3oDzmA" label="idThread" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C47ehkEkEee1w_xC3oDzmA" label="idSender" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C47eh0EkEee1w_xC3oDzmA" label="idRecipient" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C47eiEEkEee1w_xC3oDzmA" label="sendTime" length="27" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C47eiUEkEee1w_xC3oDzmA" label="readTime" length="25" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C47eikEkEee1w_xC3oDzmA" label="contactName" length="16" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C47ei0EkEee1w_xC3oDzmA" label="messageBody" length="482" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C47ejEEkEee1w_xC3oDzmA" label="searchableMessageBody" length="482" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C47ejUEkEee1w_xC3oDzmA" label="isLastOfThread" length="5" talendType="id_Boolean" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C47ejkEkEee1w_xC3oDzmA" label="_acl" length="38" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C47ej0EkEee1w_xC3oDzmA" label="creator" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C47ekEEkEee1w_xC3oDzmA" label="_kmd" length="67" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C47ekUEkEee1w_xC3oDzmA" label="lmt" length="24" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C47ekkEkEee1w_xC3oDzmA" label="ect" length="24" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

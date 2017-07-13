@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_FdkEEEJFEeers93_4daESw" name="goal2_json" dataPackage="_FdkEL0JFEeers93_4daESw" JSONFilePath="C:/Users/tsreenath/Documents/goal-2_json_record_file.json" Encoding="UTF-8" readbyMode="JSONPATH">
+    <schema xmi:id="_FdkEEUJFEeers93_4daESw" LimitBoucle="50" AbsoluteXPathQuery="$[*]">
+      <schemaTargets xmi:id="_FdkEEkJFEeers93_4daESw" RelativeXPathQuery="_id" TagName="_id"/>
+      <schemaTargets xmi:id="_FdkEE0JFEeers93_4daESw" RelativeXPathQuery="title" TagName="title"/>
+      <schemaTargets xmi:id="_FdkEFEJFEeers93_4daESw" RelativeXPathQuery="description" TagName="description"/>
+      <schemaTargets xmi:id="_FdkEFUJFEeers93_4daESw" RelativeXPathQuery="type" TagName="type"/>
+      <schemaTargets xmi:id="_FdkEFkJFEeers93_4daESw" RelativeXPathQuery="_kmd" TagName="_kmd"/>
+      <schemaTargets xmi:id="_FdkEF0JFEeers93_4daESw" RelativeXPathQuery="_kmd.lmt" TagName="lmt"/>
+      <schemaTargets xmi:id="_FdkEGEJFEeers93_4daESw" RelativeXPathQuery="_kmd.ect" TagName="ect"/>
+      <schemaTargets xmi:id="_FdkEGUJFEeers93_4daESw" RelativeXPathQuery="progress" TagName="progress"/>
+      <schemaTargets xmi:id="_FdkEGkJFEeers93_4daESw" RelativeXPathQuery="completeBy" TagName="completeBy"/>
+      <schemaTargets xmi:id="_FdkEG0JFEeers93_4daESw" RelativeXPathQuery="assignedBy" TagName="assignedBy"/>
+      <schemaTargets xmi:id="_FdkEHEJFEeers93_4daESw" RelativeXPathQuery="idPatient" TagName="idPatient"/>
+      <schemaTargets xmi:id="_FdkEHUJFEeers93_4daESw" RelativeXPathQuery="isPrivate" TagName="isPrivate"/>
+      <schemaTargets xmi:id="_FdkEHkJFEeers93_4daESw" RelativeXPathQuery="status[*]" TagName="status___"/>
+      <schemaTargets xmi:id="_FdkEH0JFEeers93_4daESw" RelativeXPathQuery="confirmationStatus" TagName="confirmationStatus"/>
+      <schemaTargets xmi:id="_FdkEIEJFEeers93_4daESw" RelativeXPathQuery="completedTime" TagName="completedTime"/>
+      <schemaTargets xmi:id="_FdkEIUJFEeers93_4daESw" RelativeXPathQuery="milestones[*]" TagName="milestones___"/>
+      <schemaTargets xmi:id="_FdkEIkJFEeers93_4daESw" RelativeXPathQuery="milestones[*].title" TagName="title1"/>
+      <schemaTargets xmi:id="_FdkEI0JFEeers93_4daESw" RelativeXPathQuery="milestones[*].completeBy" TagName="completeBy1"/>
+      <schemaTargets xmi:id="_FdkEJEJFEeers93_4daESw" RelativeXPathQuery="milestones[*].completedDate" TagName="completedDate"/>
+      <schemaTargets xmi:id="_FdkEJUJFEeers93_4daESw" RelativeXPathQuery="milestones[*].id" TagName="id"/>
+      <schemaTargets xmi:id="_FdkEJkJFEeers93_4daESw" RelativeXPathQuery="milestones[*].isCompleted" TagName="isCompleted"/>
+      <schemaTargets xmi:id="_FdkEJ0JFEeers93_4daESw" RelativeXPathQuery="milestones[*].isAssigned" TagName="isAssigned"/>
+      <schemaTargets xmi:id="_FdkEKEJFEeers93_4daESw" RelativeXPathQuery="searchableTitle" TagName="searchableTitle"/>
+      <schemaTargets xmi:id="_FdkEKUJFEeers93_4daESw" RelativeXPathQuery="_acl" TagName="_acl"/>
+      <schemaTargets xmi:id="_FdkEKkJFEeers93_4daESw" RelativeXPathQuery="_acl.creator" TagName="creator"/>
+      <schemaTargets xmi:id="_FdkEK0JFEeers93_4daESw" RelativeXPathQuery="_acl.gr" TagName="gr"/>
+      <schemaTargets xmi:id="_FdkELEJFEeers93_4daESw" RelativeXPathQuery="_acl.gw" TagName="gw"/>
+      <schemaTargets xmi:id="_FdkELUJFEeers93_4daESw" RelativeXPathQuery="_acl.groups" TagName="groups"/>
+      <schemaTargets xmi:id="_FdkELkJFEeers93_4daESw" RelativeXPathQuery="count" TagName="count"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_FdkEL0JFEeers93_4daESw" name="default" dataManager="_FdkEEEJFEeers93_4daESw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_FdkEMEJFEeers93_4daESw" id="_qy0fwEJEEeers93_4daESw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FdkEMUJFEeers93_4daESw" label="_id" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FdkEMkJFEeers93_4daESw" label="title" length="36" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FdkEM0JFEeers93_4daESw" label="description" length="211" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FdkENEJFEeers93_4daESw" label="type" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FdkENUJFEeers93_4daESw" label="_kmd" length="67" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FdkENkJFEeers93_4daESw" label="lmt" length="28" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FdkEN0JFEeers93_4daESw" label="ect" length="28" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FdkEOEJFEeers93_4daESw" label="progress" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FdkEOUJFEeers93_4daESw" label="completeBy" length="28" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FdkEOkJFEeers93_4daESw" label="assignedBy" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FdkEO0JFEeers93_4daESw" label="idPatient" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FdkEPEJFEeers93_4daESw" label="isPrivate" length="5" talendType="id_Boolean" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FdkEPUJFEeers93_4daESw" label="status___" length="13" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FdkEPkJFEeers93_4daESw" label="confirmationStatus" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FdkEP0JFEeers93_4daESw" label="completedTime" length="28" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FdkEQEJFEeers93_4daESw" label="milestones___" length="531" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FdkEQUJFEeers93_4daESw" label="title1" length="91" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FdkEQkJFEeers93_4daESw" label="completeBy1" length="70" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FdkEQ0JFEeers93_4daESw" label="completedDate" length="90" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FdkEREJFEeers93_4daESw" label="id" length="40" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FdkERUJFEeers93_4daESw" label="isCompleted" length="16" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FdkERkJFEeers93_4daESw" label="isAssigned" length="16" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FdkER0JFEeers93_4daESw" label="searchableTitle" length="36" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FdkESEJFEeers93_4daESw" label="_acl" length="125" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FdkESUJFEeers93_4daESw" label="creator" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FdkESkJFEeers93_4daESw" label="gr" length="5" talendType="id_Boolean" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FdkES0JFEeers93_4daESw" label="gw" length="5" talendType="id_Boolean" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FdkETEJFEeers93_4daESw" label="groups" length="67" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FdkETUJFEeers93_4daESw" label="count" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

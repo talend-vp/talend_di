@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_yp_KoUEjEee1w_xC3oDzmA" name="EventTemplate-2" dataPackage="_yp_KrkEjEee1w_xC3oDzmA" JSONFilePath="C:/Users/tsreenath/Documents/CORE-DB-Export-20170426/EventTemplate-2.json" Encoding="UTF-8" readbyMode="JSONPATH">
+    <schema xmi:id="_yp_KokEjEee1w_xC3oDzmA" LimitBoucle="0" AbsoluteXPathQuery="$[*]">
+      <schemaTargets xmi:id="_yp_Ko0EjEee1w_xC3oDzmA" RelativeXPathQuery="_id" TagName="_id"/>
+      <schemaTargets xmi:id="_yp_KpEEjEee1w_xC3oDzmA" RelativeXPathQuery="initialDate" TagName="initialDate"/>
+      <schemaTargets xmi:id="_yp_KpUEjEee1w_xC3oDzmA" RelativeXPathQuery="finalDate" TagName="finalDate"/>
+      <schemaTargets xmi:id="_yp_KpkEjEee1w_xC3oDzmA" RelativeXPathQuery="title" TagName="title"/>
+      <schemaTargets xmi:id="_yp_Kp0EjEee1w_xC3oDzmA" RelativeXPathQuery="programType" TagName="programType"/>
+      <schemaTargets xmi:id="_yp_KqEEjEee1w_xC3oDzmA" RelativeXPathQuery="applyToAll" TagName="applyToAll"/>
+      <schemaTargets xmi:id="_yp_KqUEjEee1w_xC3oDzmA" RelativeXPathQuery="_acl" TagName="_acl"/>
+      <schemaTargets xmi:id="_yp_KqkEjEee1w_xC3oDzmA" RelativeXPathQuery="_acl.creator" TagName="creator"/>
+      <schemaTargets xmi:id="_yp_Kq0EjEee1w_xC3oDzmA" RelativeXPathQuery="_kmd" TagName="_kmd"/>
+      <schemaTargets xmi:id="_yp_KrEEjEee1w_xC3oDzmA" RelativeXPathQuery="_kmd.lmt" TagName="lmt"/>
+      <schemaTargets xmi:id="_yp_KrUEjEee1w_xC3oDzmA" RelativeXPathQuery="_kmd.ect" TagName="ect"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_yp_KrkEjEee1w_xC3oDzmA" name="default" dataManager="_yp_KoUEjEee1w_xC3oDzmA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_yp_Kr0EjEee1w_xC3oDzmA" id="_ZqeZEEEjEee1w_xC3oDzmA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yp_KsEEjEee1w_xC3oDzmA" label="_id" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yp_KsUEjEee1w_xC3oDzmA" label="initialDate" length="24" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yp_KskEjEee1w_xC3oDzmA" label="finalDate" length="24" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yp_Ks0EjEee1w_xC3oDzmA" label="title" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yp_KtEEjEee1w_xC3oDzmA" label="programType" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yp_KtUEjEee1w_xC3oDzmA" label="applyToAll" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yp_KtkEjEee1w_xC3oDzmA" label="_acl" length="38" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yp_Kt0EjEee1w_xC3oDzmA" label="creator" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yp_KuEEjEee1w_xC3oDzmA" label="_kmd" length="67" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yp_KuUEjEee1w_xC3oDzmA" label="lmt" length="24" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yp_KukEjEee1w_xC3oDzmA" label="ect" length="24" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
