@@ -126,7 +126,7 @@
     </elementParameter>
     <elementParameter field="CHECK" name="NEED_AUTHENTICATION" value="false"/>
     <elementParameter field="TEXT" name="USR" value="&quot;nanda@itetherllc.com&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PWD" value="fapWMUegLItdXHGD3eO+mw==" show="false"/>
+    <elementParameter field="PASSWORD" name="PWD" value="X3rCnlQ0rjZLy3P6lM7qsAn5idCjxQvh9PeroXRnhOo=Encrypt" show="false"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="CHECK" name="TIMEOUT_SETTING" value="false"/>
     <elementParameter field="TEXT" name="CONNECT_TIMEOUT" value="30" show="false"/>
@@ -365,7 +365,7 @@
     <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Users/tsreenath/Documents/load_talend_curriculum_template.json&quot;"/>
     <elementParameter field="CHECK" name="APPEND" value="false"/>
     <elementParameter field="TEXT" name="CLIENT_ID" value="&quot;230893217864-jcd0cgr3in6fies83ienmsoqbbufr5au.apps.googleusercontent.com&quot;"/>
-    <elementParameter field="PASSWORD" name="CLIENT_SECRET" value="lOSqHidARVnH35T8fkRYdfwSdLD7vjD5qULfvuwQl6A="/>
+    <elementParameter field="PASSWORD" name="CLIENT_SECRET" value="wGhZLoICR47bjyE/skCYJw8v6qaFXbx4xWbac+BQaUqfJgwSPMkzQqvLaJA9WoSiEncrypt"/>
     <elementParameter field="TEXT" name="PROJECT_ID" value="&quot;secret-element-137317&quot;"/>
     <elementParameter field="TEXT" name="AUTHORIZATION_CODE" value="&quot;4/4csyKulGl98CE6Fowk7NGLFUP4C3j-2uOdcIN8rp454&quot;"/>
     <elementParameter field="TEXT" name="DATASET" value="&quot;Test_metrics_dashboard&quot;"/>
@@ -374,7 +374,7 @@
     <elementParameter field="CLOSED_LIST" name="ACTION_ON_DATA" value="TRUNCATE"/>
     <elementParameter field="CHECK" name="BULK_FILE_ALREADY_EXIST" value="false" show="false"/>
     <elementParameter field="TEXT" name="GS_ACCESS_KEY" value="&quot;GOOGFZCYPZGUL6W4OCBT&quot;"/>
-    <elementParameter field="PASSWORD" name="GS_SECRET_KEY" value="e17nWUIpvd9D7FLIhsmrq0UK/VCOa6Oevz3pzKEHIgS0n9THW6GwfpfxIDeJSdWf"/>
+    <elementParameter field="PASSWORD" name="GS_SECRET_KEY" value="wy0Zuo7D+gLg9+3G47j+Tit8U3eCGR7gdUFDd73Y/NzdNzHgLLcsZrEvW/slJjb5c7hXFw5xHsVJtPY4ooQXvfT3q6F0Z4TqEncrypt"/>
     <elementParameter field="TEXT" name="BUCKET_NAME" value="&quot;itether-data-test&quot;"/>
     <elementParameter field="TEXT" name="GS_FILE" value="&quot;gs://itether-data-test/load_talend_curriculum_template.json&quot;"/>
     <elementParameter field="TEXT" name="GS_FILE_HEADER" value="0"/>
