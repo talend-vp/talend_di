@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
-  <TalendJSON:JSONFileConnection xmi:id="_vViwwUIHEeemcOP50acfsw" name="Goal-2" dataPackage="_vViw4kIHEeemcOP50acfsw" JSONFilePath="C:/Users/tsreenath/Documents/Goal-2.json" Encoding="UTF-8" readbyMode="JSONPATH">
+  <TalendJSON:JSONFileConnection xmi:id="_vViwwUIHEeemcOP50acfsw" name="Goal-2" dataPackage="_vViw4kIHEeemcOP50acfsw" JSONFilePath="C:/Users/tsreenath/Documents/Goal-2.json" Encoding="UTF-8" readbyMode="XPATH">
     <schema xmi:id="_vViwwkIHEeemcOP50acfsw" LimitBoucle="50" AbsoluteXPathQuery="$._id">
       <schemaTargets xmi:id="_vViww0IHEeemcOP50acfsw" RelativeXPathQuery="_id" TagName="_id"/>
       <schemaTargets xmi:id="_vViwxEIHEeemcOP50acfsw" RelativeXPathQuery="idPatient" TagName="idPatient"/>
