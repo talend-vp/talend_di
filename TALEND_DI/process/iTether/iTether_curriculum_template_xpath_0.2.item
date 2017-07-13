@@ -98,19 +98,19 @@
     <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
     <routinesParameter id="_TXZscDPFEeeE7vrkYJN1BA" name="DQTechnical"/>
     <routinesParameter id="_TWXKoDPFEeeE7vrkYJN1BA" name="DataMasking"/>
-    <routinesParameter id="_TZfXIDPFEeeE7vrkYJN1BA" name="DataOperation"/>
     <routinesParameter id="_TWz2kDPFEeeE7vrkYJN1BA" name="DataQualityDependencies"/>
     <routinesParameter id="_TWqFkDPFEeeE7vrkYJN1BA" name="DataQuality"/>
     <routinesParameter id="_TXGxgDPFEeeE7vrkYJN1BA" name="DqStringHandling"/>
-    <routinesParameter id="_S_JkgDPFEeeE7vrkYJN1BA" name="MDM"/>
-    <routinesParameter id="_TZohEDPFEeeE7vrkYJN1BA" name="Mathematical"/>
-    <routinesParameter id="_TZ7cADPFEeeE7vrkYJN1BA" name="Numeric"/>
-    <routinesParameter id="_TaFNADPFEeeE7vrkYJN1BA" name="Relational"/>
-    <routinesParameter id="_TXsnYDPFEeeE7vrkYJN1BA" name="SQLike"/>
-    <routinesParameter id="_TaYH8DPFEeeE7vrkYJN1BA" name="StringHandling"/>
-    <routinesParameter id="_TarC4DPFEeeE7vrkYJN1BA" name="TalendDataGenerator"/>
-    <routinesParameter id="_Ta-k4DPFEeeE7vrkYJN1BA" name="TalendDate"/>
-    <routinesParameter id="_TbHu0DPFEeeE7vrkYJN1BA" name="TalendString"/>
+    <routinesParameter id="_LRJE0GerEeeLFZPsaS_REw" name="DataOperation"/>
+    <routinesParameter id="_sQc3UGfTEeeZlrIhYTL3LA" name="MDM"/>
+    <routinesParameter id="_LRN9UGerEeeLFZPsaS_REw" name="Mathematical"/>
+    <routinesParameter id="_LRmX0GerEeeLFZPsaS_REw" name="Numeric"/>
+    <routinesParameter id="_LRtskGerEeeLFZPsaS_REw" name="Relational"/>
+    <routinesParameter id="_LO7eUGerEeeLFZPsaS_REw" name="SQLike"/>
+    <routinesParameter id="_LR1BUGerEeeLFZPsaS_REw" name="StringHandling"/>
+    <routinesParameter id="_LR550GerEeeLFZPsaS_REw" name="TalendDataGenerator"/>
+    <routinesParameter id="_LR-yUGerEeeLFZPsaS_REw" name="TalendDate"/>
+    <routinesParameter id="_LSGHEGerEeeLFZPsaS_REw" name="TalendString"/>
   </parameters>
   <node componentName="tHttpRequest" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="128" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tHttpRequest_2" show="false"/>
