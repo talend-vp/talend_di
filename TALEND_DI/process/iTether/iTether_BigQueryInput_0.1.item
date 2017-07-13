@@ -122,7 +122,7 @@
   <node componentName="tBigQueryInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tBigQueryInput_1" show="false"/>
     <elementParameter field="TEXT" name="CLIENT_ID" value="&quot;230893217864-jcd0cgr3in6fies83ienmsoqbbufr5au.apps.googleusercontent.com&quot;"/>
-    <elementParameter field="PASSWORD" name="CLIENT_SECRET" value="lOSqHidARVnH35T8fkRYdfwSdLD7vjD5qULfvuwQl6A="/>
+    <elementParameter field="PASSWORD" name="CLIENT_SECRET" value="wGhZLoICR47bjyE/skCYJw8v6qaFXbx4xWbac+BQaUqfJgwSPMkzQqvLaJA9WoSiEncrypt"/>
     <elementParameter field="TEXT" name="PROJECT_ID" value="&quot;secret-element-137317&quot;"/>
     <elementParameter field="TEXT" name="AUTHORIZATION_CODE" value="&quot;&quot;"/>
     <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT&#xD;&#xA;   _id as id,&#xD;&#xA;   category,&#xD;&#xA;   title,&#xD;&#xA;   type,&#xD;&#xA;   assignmentDate,&#xD;&#xA;   status,&#xD;&#xA;   searchableTitle,&#xD;&#xA;   confirmationStatus,&#xD;&#xA;   condition,&#xD;&#xA;   idCurriculum,&#xD;&#xA;   isPrivate,&#xD;&#xA;   completeBy as completeBy,&#xD;&#xA;   idTemplate,&#xD;&#xA;   idPatient,&#xD;&#xA;   description,&#xD;&#xA;   isComplete,&#xD;&#xA;   assignedBy,&#xD;&#xA;   programType,&#xD;&#xA;   progress,&#xD;&#xA;   date&#xD;&#xA;FROM Test_metrics_dashboard.Test_goal_json_new&quot;"/>
