@@ -133,7 +133,7 @@
     </elementParameter>
     <elementParameter field="CHECK" name="NEED_AUTHENTICATION" value="true"/>
     <elementParameter field="TEXT" name="USR" value="&quot;nanda@itetherllc.com&quot;"/>
-    <elementParameter field="PASSWORD" name="PWD" value="fapWMUegLItdXHGD3eO+mw=="/>
+    <elementParameter field="PASSWORD" name="PWD" value="X3rCnlQ0rjZLy3P6lM7qsAn5idCjxQvh9PeroXRnhOo=Encrypt"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="CHECK" name="TIMEOUT_SETTING" value="false"/>
     <elementParameter field="TEXT" name="CONNECT_TIMEOUT" value="30" show="false"/>
