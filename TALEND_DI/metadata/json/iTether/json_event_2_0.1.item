@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
-  <TalendJSON:JSONFileConnection xmi:id="_1w6bcEI4Eeers93_4daESw" name="json_event_2" dataPackage="_1w6bhkI4Eeers93_4daESw _PXTm0EI5Eeers93_4daESw" JSONFilePath="C:/Users/tsreenath/Documents/Event_record_1.json" Encoding="UTF-8" readbyMode="JSONPATH">
+  <TalendJSON:JSONFileConnection xmi:id="_1w6bcEI4Eeers93_4daESw" name="json_event_2" dataPackage="_1w6bhkI4Eeers93_4daESw _PXTm0EI5Eeers93_4daESw" JSONFilePath="C:/Users/tsreenath/Documents/Event_record_1.json" Encoding="UTF-8" readbyMode="XPATH">
     <schema xmi:id="_1w6bcUI4Eeers93_4daESw" LimitBoucle="50" AbsoluteXPathQuery="$[*]">
       <schemaTargets xmi:id="_1w6bckI4Eeers93_4daESw" RelativeXPathQuery="_id" TagName="_id"/>
       <schemaTargets xmi:id="_1w6bc0I4Eeers93_4daESw" RelativeXPathQuery="idPatient" TagName="idPatient"/>
