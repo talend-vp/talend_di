@@ -42,7 +42,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="nl8miRoKS7qMGE1/PgfpDg==Encrypt" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="k3WNzwEJ9MTsQqCStv4d5g==" show="false"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
@@ -77,7 +77,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="nl8miRoKS7qMGE1/PgfpDg==Encrypt" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="k3WNzwEJ9MTsQqCStv4d5g==" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
@@ -122,7 +122,7 @@
   <node componentName="tBigQueryInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tBigQueryInput_1" show="false"/>
     <elementParameter field="TEXT" name="CLIENT_ID" value="&quot;230893217864-jcd0cgr3in6fies83ienmsoqbbufr5au.apps.googleusercontent.com&quot;"/>
-    <elementParameter field="PASSWORD" name="CLIENT_SECRET" value="wGhZLoICR47bjyE/skCYJw8v6qaFXbx4xWbac+BQaUqfJgwSPMkzQqvLaJA9WoSiEncrypt"/>
+    <elementParameter field="PASSWORD" name="CLIENT_SECRET" value="80HaHy4W5gTTRxm+vqFkBRPmsFcSGvIMlVR71CNTshE3WUzCT5au5PijTsEGBYkF"/>
     <elementParameter field="TEXT" name="PROJECT_ID" value="&quot;secret-element-137317&quot;"/>
     <elementParameter field="TEXT" name="AUTHORIZATION_CODE" value="&quot;&quot;"/>
     <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;select id ,userid ,parent_id,facility_id,username,payer,status,programtype,role&#xD;&#xA;FROM Test_metrics_dashboard.rdbms_userprofile_test2&#xD;&#xA;where upper(role)='PATIENT'&#xD;&#xA;group by id ,userid ,parent_id,facility_id,username,payer,status,programtype,role&quot;"/>
