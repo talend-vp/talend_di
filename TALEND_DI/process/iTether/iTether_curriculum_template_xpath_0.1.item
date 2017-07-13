@@ -379,7 +379,7 @@
     <elementParameter field="TEXT" name="GS_FILE" value="&quot;gs://itether-data-test/load_talend_curriculum_template.json&quot;"/>
     <elementParameter field="TEXT" name="GS_FILE_HEADER" value="0"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
-    <elementParameter field="FILE" name="TOKEN_NAME" value="&quot;C:/Talend/git/project.git/token.properties&quot;"/>
+    <elementParameter field="FILE" name="TOKEN_NAME" value="&quot;C:/Talend/Project-GIT/TALEND_DI/token.properties&quot;"/>
     <elementParameter field="CHECK" name="SET_FIELD_DELIMITER" value="true" show="false"/>
     <elementParameter field="TEXT" name="FIELD_DELIMITER" value="&quot;,&quot;" show="false"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
