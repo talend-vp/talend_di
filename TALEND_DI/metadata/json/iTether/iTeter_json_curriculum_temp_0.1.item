@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
-  <TalendJSON:JSONFileConnection xmi:id="_55hXQEqWEeekwduowclf5Q" name="iTeter_json_curriculum_temp" dataPackage="_55h-ckqWEeekwduowclf5Q" JSONFilePath="C:/Users/tsreenath/Documents/CORE-DB-Export-20170426/CurriculumTemplate-2.json" Encoding="UTF-8" readbyMode="JSONPATH">
+  <TalendJSON:JSONFileConnection xmi:id="_55hXQEqWEeekwduowclf5Q" name="iTeter_json_curriculum_temp" dataPackage="_55h-ckqWEeekwduowclf5Q" JSONFilePath="C:/Users/tsreenath/Documents/CORE-DB-Export-20170426/CurriculumTemplate-2.json" Encoding="UTF-8" readbyMode="XPATH">
     <schema xmi:id="_55h-UEqWEeekwduowclf5Q" LimitBoucle="50" AbsoluteXPathQuery="$[*]">
       <schemaTargets xmi:id="_55h-UUqWEeekwduowclf5Q" RelativeXPathQuery="_id" TagName="_id"/>
       <schemaTargets xmi:id="_55h-UkqWEeekwduowclf5Q" RelativeXPathQuery="title" TagName="title"/>
