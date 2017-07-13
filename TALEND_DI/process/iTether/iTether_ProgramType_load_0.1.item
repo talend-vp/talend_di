@@ -361,7 +361,7 @@
     <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Talend/git/project.git/biquery_bulk.txt&quot;"/>
     <elementParameter field="CHECK" name="APPEND" value="false"/>
     <elementParameter field="TEXT" name="CLIENT_ID" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="CLIENT_SECRET" value="0RMsyjmybrE="/>
+    <elementParameter field="PASSWORD" name="CLIENT_SECRET" value="nl8miRoKS7qMGE1/PgfpDg==Encrypt"/>
     <elementParameter field="TEXT" name="PROJECT_ID" value="&quot;secret-element-137317&quot;"/>
     <elementParameter field="TEXT" name="AUTHORIZATION_CODE" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="DATASET" value="&quot;Test_metrics_dashboard&quot;"/>
@@ -370,7 +370,7 @@
     <elementParameter field="CLOSED_LIST" name="ACTION_ON_DATA" value="TRUNCATE"/>
     <elementParameter field="CHECK" name="BULK_FILE_ALREADY_EXIST" value="false" show="false"/>
     <elementParameter field="TEXT" name="GS_ACCESS_KEY" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="GS_SECRET_KEY" value="0RMsyjmybrE="/>
+    <elementParameter field="PASSWORD" name="GS_SECRET_KEY" value="nl8miRoKS7qMGE1/PgfpDg==Encrypt"/>
     <elementParameter field="TEXT" name="BUCKET_NAME" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="GS_FILE" value="&quot;gs://&quot;"/>
     <elementParameter field="TEXT" name="GS_FILE_HEADER" value="0"/>
