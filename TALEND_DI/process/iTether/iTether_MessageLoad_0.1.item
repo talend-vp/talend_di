@@ -181,7 +181,7 @@
     <elementParameter field="RADIO" name="WHILELOOP" value="false"/>
     <elementParameter field="TEXT" name="FROM" value="0"/>
     <elementParameter field="TEXT" name="TO" value="context.collection_count"/>
-    <elementParameter field="TEXT" name="STEP" value="5000"/>
+    <elementParameter field="TEXT" name="STEP" value="10000"/>
     <elementParameter field="CHECK" name="INCREASE" value="true"/>
     <elementParameter field="TEXT" name="DECLARATION" value="int i=0" show="false"/>
     <elementParameter field="TEXT" name="CONDITION" value="i&lt;10" show="false"/>
