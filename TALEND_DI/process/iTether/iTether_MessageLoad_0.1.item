@@ -113,8 +113,8 @@
   <node componentName="tHttpRequest" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="96" posY="32">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tHttpRequest_1" show="false"/>
     <elementParameter field="TEXT" name="URI" value="&quot;https://ithr-us1-baas.kinvey.com/appdata/kid_HktP-UVfb/testtalendkinvey/_count&quot;"/>
-    <elementParameter field="CLOSED_LIST" name="METHOD_CHOSED" value="POST"/>
-    <elementParameter field="FILE" name="POST_PARAMS_FROM_FILE" value=""/>
+    <elementParameter field="CLOSED_LIST" name="METHOD_CHOSED" value="GET"/>
+    <elementParameter field="FILE" name="POST_PARAMS_FROM_FILE" value="" show="false"/>
     <elementParameter field="CHECK" name="OUT_TO_FILE" value="false"/>
     <elementParameter field="FILE" name="OUT_FILE_NAME" value="" show="false"/>
     <elementParameter field="CHECK" name="CREATE_DIRS" value="false" show="false"/>
@@ -198,8 +198,8 @@
   <node componentName="tHttpRequest" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="352" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tHttpRequest_2" show="false"/>
     <elementParameter field="TEXT" name="URI" value="&quot;https://ithr-us1-baas.kinvey.com/appdata/kid_HktP-UVfb/testtalendkinvey&quot;+((String)globalMap.get(&quot;query&quot;))"/>
-    <elementParameter field="CLOSED_LIST" name="METHOD_CHOSED" value="POST"/>
-    <elementParameter field="FILE" name="POST_PARAMS_FROM_FILE" value=""/>
+    <elementParameter field="CLOSED_LIST" name="METHOD_CHOSED" value="GET"/>
+    <elementParameter field="FILE" name="POST_PARAMS_FROM_FILE" value="" show="false"/>
     <elementParameter field="CHECK" name="OUT_TO_FILE" value="false"/>
     <elementParameter field="FILE" name="OUT_FILE_NAME" value="" show="false"/>
     <elementParameter field="CHECK" name="CREATE_DIRS" value="false" show="false"/>
