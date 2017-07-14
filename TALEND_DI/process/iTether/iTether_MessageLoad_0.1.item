@@ -332,7 +332,7 @@
       </inputTables>
     </nodeData>
   </node>
-  <node componentName="tBigQueryOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="864" posY="192">
+  <node componentName="tBigQueryOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="896" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tBigQueryOutput_2" show="false"/>
     <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Talend/Talend-Studio/workspace/loadMessageCollection.json&quot;"/>
     <elementParameter field="CHECK" name="APPEND" value="false"/>
@@ -343,7 +343,7 @@
     <elementParameter field="TEXT" name="DATASET" value="context.Dataset_name"/>
     <elementParameter field="TEXT" name="TABLE" value="&quot;Load_Message_Collection&quot;"/>
     <elementParameter field="CHECK" name="CREATE_TABLE_IF_NOT_EXIST" value="true"/>
-    <elementParameter field="CLOSED_LIST" name="ACTION_ON_DATA" value="TRUNCATE"/>
+    <elementParameter field="CLOSED_LIST" name="ACTION_ON_DATA" value="APPEND"/>
     <elementParameter field="CHECK" name="BULK_FILE_ALREADY_EXIST" value="false" show="false"/>
     <elementParameter field="TEXT" name="GS_ACCESS_KEY" value="&quot;GOOGFZCYPZGUL6W4OCBT&quot;"/>
     <elementParameter field="PASSWORD" name="GS_SECRET_KEY" value="bRimhi7V1vIShv026g3evflfxH29n4UpseIs98GiGnjlwNEo9C1onzoDwtczYCswOiLiE0kPz/V8e8hlj1Pit8hrJkMXxw3SzSKONbRp1IR/6qNouzCgsZAnPOSs98ginG8Pnqoi1p4="/>
