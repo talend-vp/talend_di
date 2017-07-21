@@ -82,6 +82,24 @@
         <elementParameter xmi:id="_8JcTvmevEeeLFZPsaS_REw" field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" value="" contextMode="false"/>
       </parameters>
     </implicitContextSettings>
+    <ItemsRelations xmi:id="_8mPM8G4IEeeAWuLG8zNebQ">
+      <baseItem xmi:id="_8mPM8W4IEeeAWuLG8zNebQ" id="_Qi6ioEzfEeePxPV7F0luVg" version="1.0" type="job"/>
+      <relatedItems xmi:id="_8mPM8m4IEeeAWuLG8zNebQ" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_8mPM824IEeeAWuLG8zNebQ" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_8mPM9G4IEeeAWuLG8zNebQ" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_8mPM9W4IEeeAWuLG8zNebQ" id="DataMasking" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_8mPM9m4IEeeAWuLG8zNebQ" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_8mPM924IEeeAWuLG8zNebQ" id="DqStringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_8mPM-G4IEeeAWuLG8zNebQ" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_8mPM-W4IEeeAWuLG8zNebQ" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_8mPM-m4IEeeAWuLG8zNebQ" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_8mPM-24IEeeAWuLG8zNebQ" id="DataQuality" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_8mPM_G4IEeeAWuLG8zNebQ" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_8mPM_W4IEeeAWuLG8zNebQ" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_8mPM_m4IEeeAWuLG8zNebQ" id="DQTechnical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_8mPM_24IEeeAWuLG8zNebQ" id="DataQualityDependencies" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_8mPNAG4IEeeAWuLG8zNebQ" id="MDM" version="Latest" type="routine"/>
+    </ItemsRelations>
     <migrationTask href="#_LIjwkGerEeeLFZPsaS_REw"/>
     <migrationTask href="#_LIjwkWerEeeLFZPsaS_REw"/>
     <migrationTask href="#_LIjwkmerEeeLFZPsaS_REw"/>
